@@ -1,5 +1,5 @@
 # -- Project information -----------------------------------------------------
-project = 'LAFVIN Multi In One Breakout Board'
+project = 'ESP32 S3 4DOF AI Robot Dog'
 copyright = '2026, Lafvin'
 author = 'Lafvin'
 

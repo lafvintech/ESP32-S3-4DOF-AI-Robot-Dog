@@ -1,26 +1,8 @@
-LAFVIN Multi In One Breakout Board
-=================================
+ESP32 S3 4DOF AI Robot Dog
+==========================
 
 .. toctree::
    :maxdepth: 2
    :caption: About This Kit
 
    Introduction
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Quick Start Guide
-
-   UserGuide
-   
-.. toctree::
-   :maxdepth: 2
-   :caption: Compatible Development Boards
-
-   DevBoard
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Frequently Asked Question
-
-   FAQ
