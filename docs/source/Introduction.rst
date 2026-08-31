@@ -1,13 +1,13 @@
 Introduction
 ============
 
-**Dear friends, welcome to the learning world of the LAFVIN Multi In One Breakout Board!**
+**Dear friends, welcome to the learning world of the ESP32 S3 4DOF AI Robot Dog!**
 
 **Please read this documentation carefully. If you encounter any problems during use, please contact our after-sales support team, and we will assist you as soon as possible.**
 
 ----
 
-**LAFVIN Multi In One Breakout Board**
+**ESP32 S3 4DOF AI Robot Dog**
 
 .. image:: _static/Introduction/1.board.png
    :width: 600
@@ -39,29 +39,38 @@ Bill of Materials
      - Name
      - Quantity
    * - 1
-     - Multi In One Breakout Board
+     - ESP32-S3 4-DOF AI Robot Dog Control Board
      - x1
    * - 2
-     - Jumper Cap (Short、Red) 
-     - x5
+     - SG90 Servo
+     - x4
    * - 3
-     - Jumper Cap (Short、Black)
-     - x5
+     - 0.96-inch OLED Display
+     - x1
    * - 4
-     - Jumper Caps (Long、Red) 
-     - x5
+     - Speaker
+     - x1
    * - 5
-     - Jumper Cap (Long、Black) 
-     - x5
+     - Servo Bracket
+     - x4
    * - 6
-     - M3x10 Copper Standoff
+     - 3D-Printed Part (Leg)
      - x4
    * - 7
-     - M3x6 Screw
-     - x4
+     - 3D-Printed Part (Head)
+     - x1
    * - 8
-     - Flathead Screwdriver
-     - x1  
+     - Type-C Data Cable
+     - x1
+   * - 9
+     - Phillips Screwdriver
+     - x1
+   * - 10
+     - Screw Pack
+     - x1
+   * - 11
+     - Cable Tie
+     - x4
 
 .. raw:: html
 
