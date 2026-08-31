@@ -78,9 +78,10 @@ Bill of Materials
 
 .. attention::
 
+  - Due to international shipping restrictions, batteries are not included; you will need to purchase one 18650 battery separately for this kit.
   - Please check the contents of the package against the bill of materials. If you find any missing or damaged items, please contact our technical support team immediately.
 
-  - The above list represents a standard configuration for a single set. If you purchase multiple sets or combine them with development boards, the final physical configuration will be subject to the actual goods received.
+----
 
 Technical Parameters
 --------------------
@@ -93,20 +94,27 @@ Technical Parameters
    * - Parameter
      - Value
    * - Input Voltage
-     - DC 7V-12V
+     - 3.7V-5V
    * - Operating Voltage
      - 3.3V-5V
-   * - Compatible Development Board Pin Count
-     - Up to 24 pins in a single row
-   * - Compatible Development Board Width
-     - 600-1000 Mil（15.24-25.4mm）
-   * - Pin Pitch Of Compatible Development Board
-     - 100 mil（2.54mm）
+   * - Charging Voltage
+     - TYPE-C 5V/2A
+   * - Main Control Chip
+     - ESP32 S3 N16R8
+   * - Servo Model
+     - SG90 Servo
+   * - Screen Model
+     - SSD1306 0.96-inch OLED Display
+   * - Power Amplifier Chip
+     - MAX98357AETE+T
+   * - Microphone Model
+     - Digital I2S ZTS6672
+   * - Speaker
+     - 8Ω 2W
 
 .. raw:: html
 
    <div style="margin-top: 30px;"></div>
-
 
 Function Introduction
 ---------------------
