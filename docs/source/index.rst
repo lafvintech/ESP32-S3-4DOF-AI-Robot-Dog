@@ -8,14 +8,14 @@ ESP32 S3 4DOF AI Robot Dog
    Introduction
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Preparation Before Use
 
    Preparation
    assembly
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Quick Start Guide
 
    xiaozhi
