@@ -62,9 +62,9 @@ Click "Connect," and in the pop-up serial port selection window, select the appr
 
 .. attention::
 
-    If you are unsure which serial port to select, you can disconnect the device and check which port disappears from the list, then reconnect it and select that port.
+ If you are unsure which serial port to select, you can disconnect the device and check which port disappears from the list, then reconnect it and select that port.
 
-    If no new serial port is detected, it indicates that the main control board has not entered download mode. Please proceed as follows: press and hold the **BOOT button**, then connect the data cable to the main control board.
+ If a new serial port is not detected, it indicates that the main control board has not entered download mode. Please follow these steps: press and hold the **BOOT button**, connect the data cable to the main control board, and then release the **BOOT button**; the corresponding port should then be recognized.
 
 ----
 
@@ -163,6 +163,8 @@ If you encounter issues with flashing or the flashing process fails, please perf
 
    <div style="margin-top: 30px;"></div>
 
-If the issue persists after performing these checks, please contact our technical support team with details about your setup, error messages, and the steps you've already tried.
+.. attention::
+
+ If the issue persists after performing these checks, please contact our technical support team with details about your setup, error messages, and the steps you've already tried.
 
 ----
