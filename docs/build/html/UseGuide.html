@@ -1,0 +1,317 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Function Usage Guide &mdash; ESP32 S3 4DOF AI Robot Dog  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=03c697b1" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=888ff710"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Configure Xiaozhi" href="xiaozhi.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #2980B9" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            ESP32 S3 4DOF AI Robot Dog
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">About This Kit</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Introduction.html">Introduction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Introduction.html#bill-of-materials">Bill of Materials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Introduction.html#technical-parameters">Technical Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Introduction.html#function-introduction">Function Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Introduction.html#resource-download">Resource Download</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Preparation Before Use</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Preparation.html">1. Flash The Firmware</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Preparation.html#online-flashing">Online Flashing</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Preparation.html#step-1-connect-the-device">Step 1: Connect the Device</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Preparation.html#step-2-access-the-online-flashing-platform">Step 2: Access the Online Flashing Platform</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Preparation.html#step-3-connect-serial-port">Step 3: Connect Serial Port</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Preparation.html#step-4-select-the-firmware">Step 4: Select the Firmware</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Preparation.html#step-5-start-flashing">Step 5: Start Flashing</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Preparation.html#faq-for-flashing-program">FAQ For Flashing Program</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="assembly.html">2. Assembly Tutorial</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="assembly.html#step-1-assemble-the-servo">Step 1: Assemble the servo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assembly.html#step-2-assemble-the-servo-motor-into-the-body">Step 2: Assemble the servo motor into the body</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assembly.html#step-3-assemble-the-swing-arm-to-the-leg">Step 3: Assemble the swing arm to the leg</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assembly.html#step-4-assemble-the-leg-to-the-servo">Step 4: Assemble the leg to the servo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assembly.html#step-5-assemble-the-speaker">Step 5: Assemble the speaker</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Quick Start Guide</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="xiaozhi.html">Configure Xiaozhi</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="xiaozhi.html#register-an-account">Register an account</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xiaozhi.html#configure-network-for-device">Configure network for device</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xiaozhi.html#add-device">Add device</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xiaozhi.html#configure-roles">Configure Roles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xiaozhi.html#faq-for-xiaozhi-configure">FAQ For Xiaozhi Configure</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Function Usage Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#intelligent-ai-voice-dialogue">Intelligent AI Voice Dialogue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#emoticon-mode">Emoticon Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gesture-recognition">Gesture Recognition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#faq-for-function-usage-guide">FAQ For Function Usage Guide</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #2980B9" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">ESP32 S3 4DOF AI Robot Dog</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Function Usage Guide</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/UseGuide.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="function-usage-guide">
+<h1>Function Usage Guide<a class="headerlink" href="#function-usage-guide" title="Link to this heading"></a></h1>
+<p><strong>This section explains how to use the LAFVIN Desktop AI Gimbal Robot through its main functions and real operating workflows. It covers gesture recognition, OLED display interaction, servo control, Follow this guide when configuring the system, running demos, and troubleshooting common issues to make the most of your robot.</strong></p>
+<section id="intelligent-ai-voice-dialogue">
+<h2>Intelligent AI Voice Dialogue<a class="headerlink" href="#intelligent-ai-voice-dialogue" title="Link to this heading"></a></h2>
+<a class="reference internal image-reference" href="_static/function/3.xiaozhi.png"><img alt="_static/function/3.xiaozhi.png" class="align-center" src="_static/function/3.xiaozhi.png" style="width: 600px;" /></a>
+<div style="margin-top: 30px;"></div><p>This project is perfectly compatible with Xiaozhi AI and supports multiple languages. You can converse with the robot via voice. The robot will process your voice input and respond accordingly based on your configured settings.</p>
+<ul class="simple">
+<li><p>You can ask it any questions:</p></li>
+</ul>
+<blockquote>
+<div><ul class="simple">
+<li><p>“What is the weather like today?”</p></li>
+<li><p>“What is the current time?”</p></li>
+<li><p>“What is the current humidity?”</p></li>
+<li><p>“Tell a joke”</p></li>
+<li><p>“What is the capital of France?”</p></li>
+<li><p>“How are you doing?”</p></li>
+<li><p>“What is the meaning of life?”</p></li>
+<li><p>“Tell me a story”</p></li>
+<li><p>“What is your favorite color?”</p></li>
+<li><p>“What is the weather like tomorrow?”</p></li>
+</ul>
+</div></blockquote>
+<p>…</p>
+<ul class="simple">
+<li><p>With the servo gimbal, you can also say:</p></li>
+</ul>
+<blockquote>
+<div><ul class="simple">
+<li><p>“Shake your head left/right”</p></li>
+<li><p>“Scan left, right, and up.”</p></li>
+<li><p>“Shaking head left and right”</p></li>
+<li><p>“Look up”</p></li>
+<li><p>“Nod”</p></li>
+</ul>
+</div></blockquote>
+<p>…</p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<ul class="simple">
+<li><p>The factory default wake-up phrase is <strong>Hi，ESP!</strong> .</p></li>
+<li><p>Alternatively, you can start a conversation by briefly pressing the <strong>BOOT</strong> button.</p></li>
+</ul>
+</div>
+</section>
+<hr class="docutils" />
+<section id="emoticon-mode">
+<h2>Emoticon Mode<a class="headerlink" href="#emoticon-mode" title="Link to this heading"></a></h2>
+<p>After the robot is powered on, it defaults to conversation mode. You can enter expression mode by long-pressing the <strong>BOOT</strong> button. In this mode, the robot will respond to your voice commands by displaying corresponding emoticons on its OLED screen. This allows for a fun and interactive way to express emotions through the robot. You can switch back to conversation mode by long-pressing the <strong>BOOT</strong> button again.</p>
+<a class="reference internal image-reference" href="_static/function/4.display.png"><img alt="_static/function/4.display.png" class="align-center" src="_static/function/4.display.png" style="width: 600px;" /></a>
+<div style="margin-top: 30px;"></div><ul class="simple">
+<li><p>In Emoticon Mode,you can say:</p></li>
+</ul>
+<blockquote>
+<div><ul class="simple">
+<li><p>“Show me a happy face”</p></li>
+<li><p>“Show me a sad face”</p></li>
+<li><p>“Play badminton animation”</p></li>
+<li><p>“Play Face ID animation”</p></li>
+</ul>
+</div></blockquote>
+<p>…</p>
+<ul class="simple">
+<li><p>The following are 41 graphic expressions built into the system. You can directly say:</p></li>
+</ul>
+<a class="reference internal image-reference" href="_static/function/1.biaoqinji.png"><img alt="_static/function/1.biaoqinji.png" class="align-center" src="_static/function/1.biaoqinji.png" style="width: 400px;" /></a>
+<div style="margin-top: 30px;"></div><ul class="simple">
+<li><p>For example: <strong>Play Rainy animation</strong>, and the system can play the corresponding graphic expressions.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="gesture-recognition">
+<h2>Gesture Recognition<a class="headerlink" href="#gesture-recognition" title="Link to this heading"></a></h2>
+<a class="reference internal image-reference" href="_static/function/2.gesture.png"><img alt="_static/function/2.gesture.png" class="align-center" src="_static/function/2.gesture.png" style="width: 600px;" /></a>
+<div style="margin-top: 30px;"></div><p>This robot is equipped with a gesture recognition system that understands and responds to specific gestures. With this feature, you can control the gimbal’s direction without using voice commands. You can make various gestures in front of the gesture recognition module, and it will recognize and execute the corresponding functions.</p>
+<ul class="simple">
+<li><p>Supported gestures include:</p></li>
+<li><p>“Swipe left”</p></li>
+<li><p>“Swipe right”</p></li>
+<li><p>“Swipe up”</p></li>
+<li><p>“Swipe down”</p></li>
+<li><p>“Circle clockwise”</p></li>
+<li><p>“Circle counterclockwise”</p></li>
+<li><p>“Push palm forward”</p></li>
+<li><p>“Push palm forward”</p></li>
+<li><p>“Quick wave”</p></li>
+</ul>
+<p>For example, you can swipe left to turn the gimbal to the left, or draw a circle clockwise to display various expressions on the OLED screen. The gesture recognition system provides an intuitive way to interact with the robot and control its behavior in real time.</p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<blockquote>
+<div><p>To ensure accurate recognition by the PAJ7620U2 module when making gestures, please note the following:</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Control the distance: Place your hand 5cm to 15cm directly above the sensor. Too close or too far will easily lead to recognition failure.</p></li>
+<li><p>Control the speed: The movement should be crisp and steady. Avoid moving too slowly (like a snail’s pace), but a normal speed is sufficient; extreme speed is unnecessary.</p></li>
+<li><p>Complete the circles: When making clockwise or counterclockwise gestures, at least two complete circles need to be completed consecutively.</p></li>
+<li><p>Distinguish between “forward” and “backward”: This refers to vertical pushing/pulling (approaching/moving away from the sensor), not horizontal sliding.</p></li>
+<li><p>Avoid strong light: Avoid using the device in direct sunlight or under strong lights to prevent interference with the infrared signal.</p></li>
+</ul>
+</div>
+</section>
+<hr class="docutils" />
+<section id="faq-for-function-usage-guide">
+<h2>FAQ For Function Usage Guide<a class="headerlink" href="#faq-for-function-usage-guide" title="Link to this heading"></a></h2>
+<p><strong>​How ​​to switch operating modes after powering on?</strong></p>
+<ul class="simple">
+<li><p>Press and hold the <strong>BOOT</strong> button to switch between Conversation mode and Emoticon mode. Powering on defaults to Conversation mode.</p></li>
+</ul>
+<hr class="docutils" />
+<p><strong>What to do if voice commands are not recognized or are unresponsive?</strong></p>
+<ul class="simple">
+<li><p>Check if the network or voice service (such as Xiaozhi AI) is available and correctly configured.</p></li>
+<li><p>Speak in a quiet environment to avoid excessive background noise.</p></li>
+<li><p>If there is still no response, restart the device and check the serial port/log for error information.</p></li>
+</ul>
+<hr class="docutils" />
+<p><strong>How ​​to improve the recognition rate when gesture recognition frequently fails?</strong></p>
+<ul class="simple">
+<li><p>Please refer to the precautions in the gesture recognition section:</p></li>
+<li><p>Place your hand 5–15cm above the sensor; too close or too far will affect recognition.</p></li>
+<li><p>Move your hand decisively and at a moderate speed; circular gestures require at least two consecutive circles.</p></li>
+<li><p>Avoid direct sunlight on the sensor; keep the sensor surface clean.</p></li>
+</ul>
+<hr class="docutils" />
+<p><strong>What to do if the OLED screen does not display or displays abnormally?</strong></p>
+<ul class="simple">
+<li><p>Check that the power supply and connection cables are secure.</p></li>
+</ul>
+<hr class="docutils" />
+<p><strong>How ​​to troubleshoot servo motors that are not moving or vibrating?</strong></p>
+<ul class="simple">
+<li><p>Ensure the power supply provides sufficient current (do not rely solely on USB power when operating multiple servos).</p></li>
+<li><p>Check that the servo signal cables and wiring sequence are correct.</p></li>
+<li><p>If the position is off or stuck, perform servo limit/zero point calibration and check the mechanical limits.</p></li>
+</ul>
+<hr class="docutils" />
+<p><strong>How ​​to make the robot execute voice commands such as head shaking?</strong></p>
+<ul class="simple">
+<li><p>Use example phrases directly in conversation mode (e.g., “Shake your head left/right”, “Scan left, right, and up”).</p></li>
+</ul>
+<hr class="docutils" />
+<p><strong>How ​​to restore factory settings or reset the device?</strong></p>
+<ul class="simple">
+<li><p>This document does not define a one-button restore procedure. To clear the configuration, you can re-flash the factory firmware.</p></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Which languages ​​are supported?</strong></p>
+<ul class="simple">
+<li><p>This project is compatible with Xiaozhi AI and supports multiple languages. Specific supported languages ​​depend on the configured voice service and model.</p></li>
+</ul>
+<hr class="docutils" />
+<p><strong>What safety precautions should be taken when using the device?</strong></p>
+<ul class="simple">
+<li><p>Avoid touching the servos directly with your hands while they are moving.</p></li>
+<li><p>Do not use the equipment in high temperature or humid environments. Avoid water ingress and short circuits.</p></li>
+<li><p>Do not apply additional loads to the servo motor or force it to move beyond its mechanical limits.</p></li>
+</ul>
+<hr class="docutils" />
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="xiaozhi.html" class="btn btn-neutral float-left" title="Configure Xiaozhi" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2026, Lafvin.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

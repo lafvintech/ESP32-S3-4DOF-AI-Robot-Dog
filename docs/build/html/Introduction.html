@@ -1,0 +1,339 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Introduction &mdash; ESP32 S3 4DOF AI Robot Dog  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=03c697b1" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=888ff710"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="1. Flash The Firmware" href="Preparation.html" />
+    <link rel="prev" title="ESP32 S3 4DOF AI Robot Dog" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #2980B9" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            ESP32 S3 4DOF AI Robot Dog
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">About This Kit</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Introduction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#bill-of-materials">Bill of Materials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#technical-parameters">Technical Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#function-introduction">Function Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#resource-download">Resource Download</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Preparation Before Use</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Preparation.html">1. Flash The Firmware</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Preparation.html#online-flashing">Online Flashing</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Preparation.html#step-1-connect-the-device">Step 1: Connect the Device</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Preparation.html#step-2-access-the-online-flashing-platform">Step 2: Access the Online Flashing Platform</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Preparation.html#step-3-connect-serial-port">Step 3: Connect Serial Port</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Preparation.html#step-4-select-the-firmware">Step 4: Select the Firmware</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Preparation.html#step-5-start-flashing">Step 5: Start Flashing</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Preparation.html#faq-for-flashing-program">FAQ For Flashing Program</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="assembly.html">2. Assembly Tutorial</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="assembly.html#step-1-assemble-the-servo">Step 1: Assemble the servo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assembly.html#step-2-assemble-the-servo-motor-into-the-body">Step 2: Assemble the servo motor into the body</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assembly.html#step-3-assemble-the-swing-arm-to-the-leg">Step 3: Assemble the swing arm to the leg</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assembly.html#step-4-assemble-the-leg-to-the-servo">Step 4: Assemble the leg to the servo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assembly.html#step-5-assemble-the-speaker">Step 5: Assemble the speaker</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Quick Start Guide</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="xiaozhi.html">Configure Xiaozhi</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="xiaozhi.html#register-an-account">Register an account</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xiaozhi.html#configure-network-for-device">Configure network for device</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xiaozhi.html#add-device">Add device</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xiaozhi.html#configure-roles">Configure Roles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xiaozhi.html#faq-for-xiaozhi-configure">FAQ For Xiaozhi Configure</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="UseGuide.html">Function Usage Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="UseGuide.html#intelligent-ai-voice-dialogue">Intelligent AI Voice Dialogue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UseGuide.html#emoticon-mode">Emoticon Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UseGuide.html#gesture-recognition">Gesture Recognition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UseGuide.html#faq-for-function-usage-guide">FAQ For Function Usage Guide</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #2980B9" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">ESP32 S3 4DOF AI Robot Dog</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Introduction</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/Introduction.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Link to this heading"></a></h1>
+<p><strong>Dear friends, welcome to the learning world of the ESP32 S3 4DOF AI Robot Dog!</strong></p>
+<p><strong>Please read this documentation carefully. If you encounter any problems during use, please contact our after-sales support team, and we will assist you as soon as possible.</strong></p>
+<hr class="docutils" />
+<p><strong>ESP32 S3 4DOF AI Robot Dog</strong></p>
+<a class="reference internal image-reference" href="_static/Introduction/1.board.png"><img alt="_static/Introduction/1.board.png" class="align-center" src="_static/Introduction/1.board.png" style="width: 600px;" /></a>
+<div style="margin-top: 30px;"></div><hr class="docutils" />
+<section id="bill-of-materials">
+<h2>Bill of Materials<a class="headerlink" href="#bill-of-materials" title="Link to this heading"></a></h2>
+<a class="reference internal image-reference" href="_static/Introduction/2.bom.png"><img alt="_static/Introduction/2.bom.png" class="align-center" src="_static/Introduction/2.bom.png" style="width: 600px;" /></a>
+<div style="margin-top: 30px;"></div><table class="docutils align-center">
+<colgroup>
+<col style="width: 14.3%" />
+<col style="width: 57.1%" />
+<col style="width: 28.6%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Serial Number</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Quantity</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>ESP32-S3 4-DOF AI Robot Dog Control Board</p></td>
+<td><p>x1</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>SG90 Servo</p></td>
+<td><p>x4</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>0.96-inch OLED Display</p></td>
+<td><p>x1</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>Speaker</p></td>
+<td><p>x1</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>Servo Bracket</p></td>
+<td><p>x4</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>3D-Printed Part (Leg)</p></td>
+<td><p>x4</p></td>
+</tr>
+<tr class="row-even"><td><p>7</p></td>
+<td><p>3D-Printed Part (Head)</p></td>
+<td><p>x1</p></td>
+</tr>
+<tr class="row-odd"><td><p>8</p></td>
+<td><p>Type-C Data Cable</p></td>
+<td><p>x1</p></td>
+</tr>
+<tr class="row-even"><td><p>9</p></td>
+<td><p>Phillips Screwdriver</p></td>
+<td><p>x1</p></td>
+</tr>
+<tr class="row-odd"><td><p>10</p></td>
+<td><p>Screw Pack</p></td>
+<td><p>x1</p></td>
+</tr>
+<tr class="row-even"><td><p>11</p></td>
+<td><p>Cable Tie</p></td>
+<td><p>x4</p></td>
+</tr>
+</tbody>
+</table>
+<div style="margin-top: 30px;"></div><div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<ul class="simple">
+<li><p>The package does not include an 18650 battery. The Type-C data cable is only for flashing firmware and charging. Please note that powering the entire system solely through the Type-C data cable is insufficient and may cause the robot to crash or restart.</p></li>
+<li><p>Please check the contents of the package against the bill of materials. If you find any missing or damaged items, please contact our technical support team immediately.</p></li>
+</ul>
+</div>
+</section>
+<hr class="docutils" />
+<section id="technical-parameters">
+<h2>Technical Parameters<a class="headerlink" href="#technical-parameters" title="Link to this heading"></a></h2>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 40.0%" />
+<col style="width: 60.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Parameter</p></th>
+<th class="head"><p>Value</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Input Voltage</p></td>
+<td><p>3.7V-5V</p></td>
+</tr>
+<tr class="row-odd"><td><p>Operating Voltage</p></td>
+<td><p>3.3V-5V</p></td>
+</tr>
+<tr class="row-even"><td><p>Charging Voltage</p></td>
+<td><p>TYPE-C 5V/2A</p></td>
+</tr>
+<tr class="row-odd"><td><p>Main Control Chip</p></td>
+<td><p>ESP32 S3 N16R8</p></td>
+</tr>
+<tr class="row-even"><td><p>Servo Model</p></td>
+<td><p>SG90 Servo</p></td>
+</tr>
+<tr class="row-odd"><td><p>Screen Model</p></td>
+<td><p>SSD1306 0.96-inch OLED Display</p></td>
+</tr>
+<tr class="row-even"><td><p>Power Amplifier Chip</p></td>
+<td><p>MAX98357AETE+T</p></td>
+</tr>
+<tr class="row-odd"><td><p>Microphone Model</p></td>
+<td><p>Digital I2S ZTS6672</p></td>
+</tr>
+<tr class="row-even"><td><p>Speaker</p></td>
+<td><p>8Ω 2W</p></td>
+</tr>
+</tbody>
+</table>
+<div style="margin-top: 30px;"></div></section>
+<section id="function-introduction">
+<h2>Function Introduction<a class="headerlink" href="#function-introduction" title="Link to this heading"></a></h2>
+<p><strong>Introduction:</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>The LAFVIN 4DOF AI Robot Dog is an assembleable intelligent robot dog kit based on the ESP32-S3.</p></li>
+<li><p>It uses four servo motors to drive its four legs, enabling it to perform a variety of actions such as moving forward, backward, turning, sitting, shaking hands, dancing, and sleeping.</p></li>
+<li><p>It supports Wi-Fi connectivity, voice interaction, web-based remote control, OLED facial expression display, and RGB lighting effects, making it suitable for maker projects, STEM education, and robot programming learning.</p></li>
+</ul>
+</div></blockquote>
+<p><strong>Features:</strong></p>
+<ul>
+<li><p><strong>AI Voice Interaction</strong></p>
+<p>After connecting to Wi-Fi, it enables voice wake-up and voice dialogue. Users can issue action commands via natural language, such as forward, backward, turn, sit, or perform actions; they can also control screen expressions and RGB lighting effects via voice.</p>
+</li>
+<li><p><strong>Multi-Step Movement Control</strong></p>
+<p>Supports four basic movement modes: forward, backward, left turn, and right turn. Voice control can recognize step count commands such as “forward 5 steps” and “backward 3 steps”; control can also be completed directly by clicking the direction buttons on the web interface.</p>
+</li>
+<li><p><strong>9 Preset Action Performances</strong></p>
+<p>Built-in action performances include sitting, stretching, swaying, shaking hands, dancing, being happy, showing off, and sleeping. Different actions are performed through coordinated movement of all four legs, suitable for interactive displays and desktop companionship scenarios.</p>
+</li>
+<li><p><strong>Mobile Web Remote Control</strong></p>
+<p>After connecting the device to home Wi-Fi, mobile phones, tablets, or computers can access the control page by accessing the device’s IP address, without the need for additional app installation. The page allows control of movement direction, action performances, expressions, RGB lighting effects, and servo motor calibration.</p>
+</li>
+<li><p><strong>OLED Expression and Status Display</strong></p>
+<p>The 0.96-inch OLED screen displays Wi-Fi status, time, battery level, initialization prompts, and dialogue subtitles. In expression mode, it displays dynamic eye expressions such as blinking, happiness, sadness, anger, surprise, thinking, crying, and sleeping.</p>
+</li>
+<li><p><strong>Expression Mode</strong></p>
+<p>A long press of the BOOT button enters a focused expression display mode, where the screen primarily displays dynamic expressions. When the robot dog performs actions, it can also randomly display matching expressions to enhance interactivity.</p>
+</li>
+<li><p><strong>RGB Ambient Lighting Effects</strong></p>
+<p>Equipped with two programmable RGB LEDs, it supports six modes: constant light, breathing, rainbow, flowing water, flashing, and motion-linked. In motion-linked mode, the light color and effects change according to the walking or movement rhythm.</p>
+</li>
+<li><p><strong>Servo Zero-Point Calibration</strong></p></li>
+</ul>
+<blockquote>
+<div><p>The web interface supports individual fine-tuning of each of the four leg servos, increasing or decreasing in 1° increments. The calibrated zero point is automatically applied to the Home posture and all movement trajectories, facilitating adaptation to different installation errors and 3D-printed leg components.</p>
+</div></blockquote>
+<ul class="simple">
+<li><p><strong>Battery Monitoring</strong></p></li>
+</ul>
+<blockquote>
+<div><p>Real-time monitoring of the voltage of a single 3.7V lithium battery cell, displaying the remaining battery level in the status bar for convenient and timely charging.</p>
+</div></blockquote>
+<ul class="simple">
+<li><p><strong>Open DIY and Secondary Development</strong></p></li>
+</ul>
+<blockquote>
+<div><p>Based on the ESP32-S3 and open-source ESP-IDF development environment, users can further modify motion angles, web interfaces, screen expressions, lighting effects logic, and voice interaction methods, making it suitable for learning embedded systems, robot control, and AI application development.</p>
+</div></blockquote>
+</section>
+<hr class="docutils" />
+<section id="resource-download">
+<h2>Resource Download<a class="headerlink" href="#resource-download" title="Link to this heading"></a></h2>
+<p>The sample code required for this course has been provided; you can access all the resources via the following link.</p>
+<a href="_static/Test_Code.zip" class="btn btn-primary" download>📥 Download Example program</a><hr class="docutils" />
+<p><strong>Next, we will delve into the core content of the course and help you gradually understand the relevant concepts and master the operation procedures.</strong></p>
+<hr class="docutils" />
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="ESP32 S3 4DOF AI Robot Dog" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Preparation.html" class="btn btn-neutral float-right" title="1. Flash The Firmware" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2026, Lafvin.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

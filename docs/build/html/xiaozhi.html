@@ -1,0 +1,319 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Configure Xiaozhi &mdash; ESP32 S3 4DOF AI Robot Dog  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=03c697b1" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=888ff710"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Function Usage Guide" href="UseGuide.html" />
+    <link rel="prev" title="2. Assembly Tutorial" href="assembly.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #2980B9" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            ESP32 S3 4DOF AI Robot Dog
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">About This Kit</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Introduction.html">Introduction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Introduction.html#bill-of-materials">Bill of Materials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Introduction.html#technical-parameters">Technical Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Introduction.html#function-introduction">Function Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Introduction.html#resource-download">Resource Download</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Preparation Before Use</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Preparation.html">1. Flash The Firmware</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Preparation.html#online-flashing">Online Flashing</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Preparation.html#step-1-connect-the-device">Step 1: Connect the Device</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Preparation.html#step-2-access-the-online-flashing-platform">Step 2: Access the Online Flashing Platform</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Preparation.html#step-3-connect-serial-port">Step 3: Connect Serial Port</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Preparation.html#step-4-select-the-firmware">Step 4: Select the Firmware</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Preparation.html#step-5-start-flashing">Step 5: Start Flashing</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Preparation.html#faq-for-flashing-program">FAQ For Flashing Program</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="assembly.html">2. Assembly Tutorial</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="assembly.html#step-1-assemble-the-servo">Step 1: Assemble the servo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assembly.html#step-2-assemble-the-servo-motor-into-the-body">Step 2: Assemble the servo motor into the body</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assembly.html#step-3-assemble-the-swing-arm-to-the-leg">Step 3: Assemble the swing arm to the leg</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assembly.html#step-4-assemble-the-leg-to-the-servo">Step 4: Assemble the leg to the servo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assembly.html#step-5-assemble-the-speaker">Step 5: Assemble the speaker</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Quick Start Guide</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Configure Xiaozhi</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#register-an-account">Register an account</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#configure-network-for-device">Configure network for device</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#add-device">Add device</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#configure-roles">Configure Roles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#faq-for-xiaozhi-configure">FAQ For Xiaozhi Configure</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="UseGuide.html">Function Usage Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="UseGuide.html#intelligent-ai-voice-dialogue">Intelligent AI Voice Dialogue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UseGuide.html#emoticon-mode">Emoticon Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UseGuide.html#gesture-recognition">Gesture Recognition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UseGuide.html#faq-for-function-usage-guide">FAQ For Function Usage Guide</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #2980B9" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">ESP32 S3 4DOF AI Robot Dog</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Configure Xiaozhi</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/xiaozhi.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="configure-xiaozhi">
+<h1>Configure Xiaozhi<a class="headerlink" href="#configure-xiaozhi" title="Link to this heading"></a></h1>
+<ul class="simple">
+<li><p>This kit features the built-in “Xiaozhi AI” intelligent voice system.</p></li>
+<li><p>To ensure smooth operation, please carefully read the configuration instructions in this section.</p></li>
+</ul>
+<hr class="docutils" />
+<section id="register-an-account">
+<h2>Register an account<a class="headerlink" href="#register-an-account" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p>Go to <a class="reference external" href="https://xiaozhi.me/">XiaoZhi</a> and register an account.</p></li>
+<li><p>Click the “Console” button on the page to enter the console</p></li>
+</ol>
+<a class="reference internal image-reference" href="_static/xiaozhi/1.xiaozhi.png"><img alt="_static/xiaozhi/1.xiaozhi.png" class="align-center" src="_static/xiaozhi/1.xiaozhi.png" style="width: 800px;" /></a>
+<div style="margin-top: 30px;"></div><ol class="arabic simple" start="3">
+<li><p>Fill in the registration form:</p></li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p>Select your country and enter your mobile phone number (for receiving verification code)</p></li>
+<li><p>Enter the graphic verification code</p></li>
+</ul>
+</div></blockquote>
+<a class="reference internal image-reference" href="_static/xiaozhi/2.xiaozhi2.png"><img alt="_static/xiaozhi/2.xiaozhi2.png" class="align-center" src="_static/xiaozhi/2.xiaozhi2.png" style="width: 800px;" /></a>
+<div style="margin-top: 30px;"></div><ol class="arabic simple" start="4">
+<li><p>Then click “Send Code”. The system will send a verification code to your phone. enter the verification code to complete registration</p></li>
+</ol>
+<a class="reference internal image-reference" href="_static/xiaozhi/3.xiaozhi2.png"><img alt="_static/xiaozhi/3.xiaozhi2.png" class="align-center" src="_static/xiaozhi/3.xiaozhi2.png" style="width: 800px;" /></a>
+<div style="margin-top: 30px;"></div><ol class="arabic simple" start="5">
+<li><p>Complete your profile，For account security, complete the information below to continue.After filling in, you can jump to the device management page.</p></li>
+</ol>
+<a class="reference internal image-reference" href="_static/xiaozhi/4.xiaozhi3.png"><img alt="_static/xiaozhi/4.xiaozhi3.png" class="align-center" src="_static/xiaozhi/4.xiaozhi3.png" style="width: 800px;" /></a>
+<div style="margin-top: 30px;"></div><a class="reference internal image-reference" href="_static/xiaozhi/4.xiaozhi2.png"><img alt="_static/xiaozhi/4.xiaozhi2.png" class="align-center" src="_static/xiaozhi/4.xiaozhi2.png" style="width: 800px;" /></a>
+<div style="margin-top: 30px;"></div><ol class="arabic simple" start="6">
+<li><p>After registration, you can add a password in the account management in the upper right corner.</p></li>
+</ol>
+<a class="reference internal image-reference" href="_static/xiaozhi/5.xiaozhi2.png"><img alt="_static/xiaozhi/5.xiaozhi2.png" class="align-center" src="_static/xiaozhi/5.xiaozhi2.png" style="width: 800px;" /></a>
+<div style="margin-top: 30px;"></div><a class="reference internal image-reference" href="_static/xiaozhi/6.xiaozhi2.png"><img alt="_static/xiaozhi/6.xiaozhi2.png" class="align-center" src="_static/xiaozhi/6.xiaozhi2.png" style="width: 800px;" /></a>
+<div style="margin-top: 30px;"></div><a class="reference internal image-reference" href="_static/xiaozhi/6.xiaozhi3.png"><img alt="_static/xiaozhi/6.xiaozhi3.png" class="align-center" src="_static/xiaozhi/6.xiaozhi3.png" style="width: 800px;" /></a>
+<div style="margin-top: 30px;"></div></section>
+<hr class="docutils" />
+<section id="configure-network-for-device">
+<h2>Configure network for device<a class="headerlink" href="#configure-network-for-device" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p>After flashing the program onto the main control board, press the <strong>RST</strong> key. The program will start running, and after a short wait, the screen will display “Wi-Fi Configuration Mode”.</p></li>
+</ol>
+<a class="reference internal image-reference" href="_static/xiaozhi/7.xiaozhi.png"><img alt="_static/xiaozhi/7.xiaozhi.png" class="align-center" src="_static/xiaozhi/7.xiaozhi.png" style="width: 800px;" /></a>
+<div style="margin-top: 30px;"></div><ol class="arabic simple" start="2">
+<li><p>Turn on your phone’s Wi-Fi, find and connect to a hotspot whose name starts with <strong>Xiaozhi-xxxx</strong> .</p></li>
+</ol>
+<a class="reference internal image-reference" href="_static/xiaozhi/8.xiaozhi.png"><img alt="_static/xiaozhi/8.xiaozhi.png" class="align-center" src="_static/xiaozhi/8.xiaozhi.png" style="width: 400px;" /></a>
+<div style="margin-top: 30px;"></div><ol class="arabic" start="3">
+<li><p>After connecting to the hotspot, you will be automatically redirected to the network configuration page.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>If you are not automatically redirected, open a web browser and enter <strong>http://192.168.4.1</strong> in the address bar to access the network configuration page.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>On the network configuration page, select your Wi-Fi network and enter the password to connect.</p></li>
+</ol>
+<a class="reference internal image-reference" href="_static/xiaozhi/9.xiaozhi.png"><img alt="_static/xiaozhi/9.xiaozhi.png" class="align-center" src="_static/xiaozhi/9.xiaozhi.png" style="width: 800px;" /></a>
+<div style="margin-top: 30px;"></div><div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<ul class="simple">
+<li><p>If the Wi-Fi network you want to connect to is not displayed, click the “Refresh” button to scan for available Wi-Fi networks again.</p></li>
+<li><p>If you can’t find the Wi-Fi network you want to connect to below, simply enter the Wi-Fi name and password above.</p></li>
+<li><p>If the Wi-Fi network has no password, simply click “Connect” without entering a password.</p></li>
+</ul>
+</div>
+<ol class="arabic simple" start="5">
+<li><p>After successfully connecting to the Wi-Fi, the screen will display “Wi-Fi Connected”. You can now use the device with network connectivity.</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="add-device">
+<h2>Add device<a class="headerlink" href="#add-device" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p>After logging in Xiaozhi, click the “Add Device” button on the console page.</p></li>
+</ol>
+<a class="reference internal image-reference" href="_static/xiaozhi/6.xiaozhi.png"><img alt="_static/xiaozhi/6.xiaozhi.png" class="align-center" src="_static/xiaozhi/6.xiaozhi.png" style="width: 800px;" /></a>
+<div style="margin-top: 30px;"></div><ol class="arabic simple" start="2">
+<li><p>Enter the 6-digit pairing code displayed on the screen.</p></li>
+</ol>
+<a class="reference internal image-reference" href="_static/xiaozhi/6.xiaozhi4.png"><img alt="_static/xiaozhi/6.xiaozhi4.png" class="align-center" src="_static/xiaozhi/6.xiaozhi4.png" style="width: 800px;" /></a>
+<div style="margin-top: 30px;"></div><a class="reference internal image-reference" href="_static/xiaozhi/10.xiaozhi.gif"><img alt="_static/xiaozhi/10.xiaozhi.gif" class="align-center" src="_static/xiaozhi/10.xiaozhi.gif" style="width: 800px;" /></a>
+<div style="margin-top: 30px;"></div><ol class="arabic simple" start="3">
+<li><p>Select the “Open Source” version to get started.</p></li>
+</ol>
+<a class="reference internal image-reference" href="_static/xiaozhi/11.xiaozhi2.png"><img alt="_static/xiaozhi/11.xiaozhi2.png" class="align-center" src="_static/xiaozhi/11.xiaozhi2.png" style="width: 800px;" /></a>
+<div style="margin-top: 30px;"></div><ol class="arabic simple" start="4">
+<li><p>Now you can talk to it.</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="configure-roles">
+<h2>Configure Roles<a class="headerlink" href="#configure-roles" title="Link to this heading"></a></h2>
+<p><strong>To make it more fun, you can configure your unique character as follows:</strong></p>
+<ol class="arabic simple">
+<li><p>Configure Agent Parameters:</p></li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p>Assistant Name: Name your AI assistant</p></li>
+<li><p>Voice Role: Select your preferred voice style</p></li>
+<li><p>Language Preference: Set the conversation language</p></li>
+<li><p>Role Introduction: Define the personality traits of the AI assistant</p></li>
+<li><p>Language Model: Select the language model to use</p></li>
+</ul>
+</div></blockquote>
+<a class="reference internal image-reference" href="_static/xiaozhi/12.xiaozhi.png"><img alt="_static/xiaozhi/12.xiaozhi.png" class="align-center" src="_static/xiaozhi/12.xiaozhi.png" style="width: 800px;" /></a>
+<div style="margin-top: 30px;"></div><ol class="arabic simple" start="2">
+<li><p>Set the Role Prompt. It is recommended to use the following template, or you can create your own role prompt:</p></li>
+</ol>
+<div class="role-prompt-copy docutils container">
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>I am a virtual assistant called {{assistant_name}}. I communicate exclusively in English with a natural, friendly voice. I provide helpful, accurate information and assist users with their queries while maintaining a conversational tone. I adapt my speaking style to match the user&#39;s needs and always aim to deliver clear, concise responses in fluent English.
+</pre></div>
+</div>
+<button type="button" onclick="navigator.clipboard.writeText('I am a virtual assistant called {{assistant_name}}. I communicate exclusively in English with a natural, friendly voice. I provide helpful, accurate information and assist users with their queries while maintaining a conversational tone. I adapt my speaking style to match the user\'s needs and always aim to deliver clear, concise responses in fluent English.');">Copy prompt</button></div>
+<div style="margin-top: 30px;"></div><ol class="arabic simple" start="3">
+<li><p>Click the “Save” button to save the role configuration.</p></li>
+</ol>
+<a class="reference internal image-reference" href="_static/xiaozhi/13.xiaozhi.png"><img alt="_static/xiaozhi/13.xiaozhi.png" class="align-center" src="_static/xiaozhi/13.xiaozhi.png" style="width: 800px;" /></a>
+<div style="margin-top: 30px;"></div><ol class="arabic simple" start="4">
+<li><p>After configuring the character, you need to press the <strong>RST</strong> button on the main control panel again for the configuration to take effect.</p></li>
+</ol>
+<hr class="docutils" />
+<p><strong>Now you can have a conversation with your personalized AI assistant!</strong></p>
+</section>
+<hr class="docutils" />
+<section id="faq-for-xiaozhi-configure">
+<h2>FAQ For Xiaozhi Configure<a class="headerlink" href="#faq-for-xiaozhi-configure" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p>If the website link does not open, verify that your browser has network access and use the exact URL: <a class="reference external" href="https://xiaozhi.me/">XiaoZhi</a> .</p></li>
+</ol>
+<div style="margin-top: 30px;"></div><ol class="arabic simple" start="2">
+<li><p>If the registration SMS code is not received, check your phone number format, country selection, and network coverage. Try requesting the code again after a short wait.</p></li>
+</ol>
+<div style="margin-top: 30px;"></div><ol class="arabic simple" start="3">
+<li><p>If the device does not show a <cite>Xiaozhi-xxxx</cite> hotspot, press the <strong>RST</strong> button again to restart Wi-Fi configuration mode and wait for the board to finish booting.</p></li>
+</ol>
+<div style="margin-top: 30px;"></div><ol class="arabic simple" start="4">
+<li><p>If the configuration page does not redirect automatically after connecting to the hotspot, open a browser and navigate manually to <strong>http://192.168.4.1</strong> .</p></li>
+</ol>
+<div style="margin-top: 30px;"></div><ol class="arabic simple" start="5">
+<li><p>If your Wi-Fi network is not listed, use the manual entry option to type the SSID and password exactly, including uppercase letters and symbols.</p></li>
+</ol>
+<div style="margin-top: 30px;"></div><ol class="arabic simple" start="6">
+<li><p>If the device fails to connect to Wi-Fi, confirm the password, ensure the router supports 2.4 GHz, and avoid hidden or enterprise networks during initial setup.</p></li>
+</ol>
+<div style="margin-top: 30px;"></div><ol class="arabic simple" start="7">
+<li><p>If the 6-digit pairing code is not accepted during device binding, verify the code shown on the screen and try again after refreshing the console page.</p></li>
+</ol>
+<div style="margin-top: 30px;"></div><ol class="arabic simple" start="8">
+<li><p>If the AI assistant responds incorrectly or does not respond, re-check the role prompt and settings, then press <strong>RST</strong> on the main control panel to reload the configuration.</p></li>
+</ol>
+<div style="margin-top: 30px;"></div><ul class="simple">
+<li><p>For any persistent issues, refer to the Xiaozhi documentation and support resources, or retry the setup steps from the beginning to confirm each stage was completed correctly.</p></li>
+</ul>
+<hr class="docutils" />
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="assembly.html" class="btn btn-neutral float-left" title="2. Assembly Tutorial" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="UseGuide.html" class="btn btn-neutral float-right" title="Function Usage Guide" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2026, Lafvin.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
