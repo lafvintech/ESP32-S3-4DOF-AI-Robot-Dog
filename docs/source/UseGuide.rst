@@ -61,10 +61,81 @@ In standby mode, the OLED status bar shows:
 
 ----
 
+Web Control
+-----------
+
+After confirming that your phone and the robot dog are on the same local network, enter the IP address shown on the OLED
+screen in your browser address bar:
+
+.. image:: _static/function/3.WebControl.png
+   :width: 600
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+The ``AI DOG Smart Control`` page provides the controls below.
+
+.. image:: _static/function/4.WebControl.png
+   :width: 600
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+Movement Controls
+^^^^^^^^^^^^^^^^^
+
+* :guilabel:`Forward`: Walk forward.
+* :guilabel:`Backward`: Walk backward.
+* :guilabel:`Turn Left`: Turn left.
+* :guilabel:`Turn Right`: Turn right.
+* :guilabel:`Home Position`: Return to the calibrated standing pose.
+* :guilabel:`Stop`: Stop the current action and return to a safe pose.
+
+Preset Actions
+^^^^^^^^^^^^^^
+
+The web interface includes nine preset actions:
+
+.. list-table::
+   :widths: 25 75
+   :header-rows: 1
+
+   * - Button
+     - Description
+   * - ``Sit``
+     - Sit down and hold the pose.
+   * - ``Stand``
+     - Return to the standing pose.
+   * - ``Stretch``
+     - Perform a synchronized forward-and-backward leg stretch.
+   * - ``Sway``
+     - Perform a body-swaying action.
+   * - ``Dance``
+     - Perform a dance routine.
+   * - ``Shake Hands``
+     - Raise the front-left leg for a handshake.
+   * - ``Happy``
+     - Perform a happy interaction routine.
+   * - ``Showcase``
+     - Demonstrate the legs one at a time.
+   * - ``Sleep``
+     - Move into and hold a sleeping pose.
+
+.. tip::
+
+   ``Sit`` and ``Sleep`` keep the robot dog in their final pose. Before walking again, select :guilabel:`Home Position`
+   or :guilabel:`Stand` to prevent the feet from dragging and to improve movement stability.
+
+----
+
 Intelligent AI Voice Dialogue
 -----------------------------
 
-.. image:: _static/function/3.xiaozhi.png
+.. image:: _static/function/5.Xiaozhi.png
    :width: 600
    :align: center
 
