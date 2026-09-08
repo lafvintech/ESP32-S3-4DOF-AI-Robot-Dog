@@ -115,9 +115,10 @@ Step 4: Assemble the leg to the servo
 -------------------------------------
 
 **Required components:**
+
 - Assembled leg (4 PCS)
 
--M2x4mm screws (4 PCS included in the servo package)
+- M2x4mm screws (4 PCS included in the servo package)
 
 **Assembly Steps:**
 
@@ -137,6 +138,9 @@ Step 4: Assemble the leg to the servo
 
 .. attention::
 
+ - If the servo motor does not return to its initial position, please check if the firmware has been flashed correctly. If the issue persists, please contact our support team for assistance.
+
+----
 
 Step 5: Assemble the speaker
 ----------------------------
@@ -151,9 +155,46 @@ Step 5: Assemble the speaker
 
 - Use round double-sided tape to fix the speaker to the designated position on the main control board and insert the speaker interface into the hole.
 
+.. image:: _static/assembly/5.assemble_leg.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+----
+
+Step 6: Assemble the screen
+---------------------------
+
+**Required components:**
+
+- 0.96" OLED Screen (1 PCS)
+- 3D printed head parts (1 PCS)
+- M2x10mm screws (4 PCS)
+- M2 nuts (4 PCS)
+
+**Assembly Steps:**
+
+- Use M2x10mm screws and M2 nuts to attach the 0.96" OLED screen to the 3D-printed head parts. Ensure that the screen is securely fastened and properly aligned.
+
+- Insert the assembled screen into the designated slot on the main control board. Make sure that the screen is oriented correctly.
+
+.. image:: _static/assembly/6.assemble_screen.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+----
+
+Servo calibration
+-----------------
 
 
-
-
-
+FAQ For Assembly
+----------------
 
