@@ -3,6 +3,12 @@ ESP32 S3 4DOF AI Robot Dog
 
 .. toctree::
    :maxdepth: 2
+   :caption: Quick Start Guide
+
+   quicklyuse
+
+.. toctree::
+   :maxdepth: 2
    :caption: About This Kit
 
    Introduction
@@ -16,7 +22,7 @@ ESP32 S3 4DOF AI Robot Dog
 
 .. toctree::
    :maxdepth: 1
-   :caption: Quick Start Guide
+   :caption: Function Introduction
 
    xiaozhi
    UseGuide
