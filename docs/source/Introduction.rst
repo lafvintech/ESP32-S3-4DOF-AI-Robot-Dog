@@ -78,11 +78,18 @@ Bill of Materials
 
 .. attention::
 
-  - The package does not include an 18650 battery. The Type-C data cable is only for flashing firmware and charging. Please note that powering the entire system solely through the Type-C data cable is insufficient and may cause the robot to crash or restart.
-  
   - Please check the contents of the package against the bill of materials. If you find any missing or damaged items, please contact our technical support team immediately.
 
+.. danger::
+
+   **Batteries are not included in the package.** Please use a single 3.7V 18650 lithium battery; the fully charged voltage is approximately 4.2V.
+
+   Do not connect two batteries in series, connect a 9V battery, or connect a voltage exceeding the range of a single lithium battery to the `BAT` terminal.
+
+   Incorrect wiring may damage the control board, servo motor, or battery.
+
 ----
+
 
 Technical Parameters
 --------------------
