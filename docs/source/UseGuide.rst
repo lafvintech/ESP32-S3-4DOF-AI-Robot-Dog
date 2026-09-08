@@ -199,6 +199,10 @@ OLED Expression Mode
 In normal mode, the OLED shows Wi-Fi status, time, battery level, dialogue subtitles, and a small expression.
 **Long-press the BOOT button** to enter or exit ``Expression Mode``.
 
+.. note::
+
+   The OLED battery percentage is an estimate. A small difference from the voltage measured by a multimeter is normal.
+
 In Expression Mode, the screen focuses on animated eye expressions and no longer shows dialogue subtitles. Voice audio
 output continues normally. Use the :guilabel:`Expressions` page in the web interface to test the available expressions:
 
@@ -273,21 +277,13 @@ FAQ For Function Usage Guide
 
 ----
 
-**How ​​to improve the recognition rate when gesture recognition frequently fails?**
-
-- Please refer to the precautions in the gesture recognition section:
-
-- Place your hand 5–15cm above the sensor; too close or too far will affect recognition.
-
-- Move your hand decisively and at a moderate speed; circular gestures require at least two consecutive circles.
-
-- Avoid direct sunlight on the sensor; keep the sensor surface clean.
 
 ----
 
 **What to do if the OLED screen does not display or displays abnormally?** 
 
 - Check that the power supply and connection cables are secure.
+- Check the battery charge level and polarity.
 
 ----
 
@@ -326,5 +322,42 @@ FAQ For Function Usage Guide
 - Do not use the equipment in high temperature or humid environments. Avoid water ingress and short circuits.
 
 - Do not apply additional loads to the servo motor or force it to move beyond its mechanical limits.
+
+----
+
+**The web control page does not open**
+
+- Confirm that the phone and robot dog are connected to the same 2.4 GHz Wi-Fi network.
+- Enter the complete address, for example ``http://192.168.3.227``.
+- Restart the robot dog and wait for the OLED to show its IP address again.
+- Disable VPN on the phone and avoid guest networks with client isolation enabled.
+
+----
+
+**The wake word or voice interaction does not respond**
+
+- Confirm that the device is online and has completed startup.
+- Short-press BOOT to check whether direct listening mode works.
+- Speak near the microphone and away from loud noise sources such as fans, televisions, or crowds.
+- Check the speaker connection and power supply.
+
+----
+
+**The robot dog shuffles, walks crookedly, or raises a foot**
+
+- Test on a flat, dry surface with moderate friction.
+- Check that the battery is sufficiently charged.
+- Confirm that the left and right legs are not swapped and that servo connections are correct.
+- Recalibrate all four legs as described in :ref:`servo-calibration-en`.
+- Check for loose servo-horn, bracket, or leg screws.
+
+----
+
+**The servos jitter continuously or become hot**
+
+- Select :guilabel:`Stop` immediately and disconnect power.
+- Check whether a leg is hitting the body, blocked by an object, or at its mechanical limit.
+- Check for a low battery.
+- Recalibrate the affected leg's Home position to prevent the servo from remaining stalled.
 
 ----
