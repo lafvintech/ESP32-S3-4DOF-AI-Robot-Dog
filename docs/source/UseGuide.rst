@@ -1,17 +1,19 @@
 Function Usage Guide
 ====================
 
-The LAFVIN 4DOF AI Robot Dog is a DIY kit for a four-DOF intelligent robot dog based on the ESP32-S3 microcontroller.
+The LAFVIN ESP32 S3 4DOF AI Robot Dog is a four-degree-of-freedom smart robot dog DIY kit powered by an ESP32-S3.
+Four SG90 micro servos independently drive the front-left, rear-left, front-right, and rear-right legs for walking,
+turning, and expressive motion routines.
 
-Four SG90 micro servos drive the left front, left rear, right front, and right rear legs respectively, enabling walking, turning, and motion performance.
-
-The robot dog integrates Wi-Fi, AI voice interaction, OLED dynamic expressions, a speaker, RGB lighting effects, web control, and battery monitoring.
-
-Users can interact with the robot dog via voice or through a mobile browser to control its movement, perform motions, test expressions, set RGB lighting effects, and calibrate the servos' zero point.
+The robot dog integrates Wi-Fi, AI voice interaction, an OLED animated expression display, a speaker, programmable
+RGB lighting, browser-based controls, and battery-level monitoring. You can interact with it by voice or use a phone
+browser to control movement, play actions, test OLED expressions, select RGB effects, and calibrate the servo home positions.
 
 .. important::
 
- This product is an assemblable and adjustable robot kit. Leg mounting angle, servo batch, and 3D printing errors will all affect standing and walking performance. Before first use, please complete the ``Home Position`` check and servo zero-point calibration.
+   This is an assemble-and-adjust robot kit. Servo manufacturing tolerances, servo-horn mounting positions, and
+   3D-printed part tolerances can affect its standing and walking performance. Before first use, check the
+   ``Home Position`` and complete servo zero-position calibration.
 
 ----
 

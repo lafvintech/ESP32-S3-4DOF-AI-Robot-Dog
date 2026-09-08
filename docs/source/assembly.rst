@@ -11,12 +11,64 @@
 
 ----
 
+Before You Begin
+----------------
+
+#. Prepare a level surface with moderate friction. For the first walking test, avoid glass, polished tile, and deep-pile carpet.
+#. Confirm that the four servos, 3D-printed legs, servo brackets, and screws are present.
+#. Use the included USB Type-C cable to connect the robot dog to a computer for firmware flashing, or debugging.
+#. Prepare one healthy 3.7 V 18650 lithium-ion cell and verify the battery polarity against the markings on the control board.
+#. During the first assembly, do not fully tighten the servo-horn and leg screws until the initial standing pose has been checked.
+
+----
+
 **Video Tutorial**
 
 .. video:: _static/assembly/LA076_ROBOT_V2.mp4
     :width: 100%
 
 ----
+
+
+Assembly and Leg Installation
+-----------------------------
+
+Each servo controls one leg. The left and right legs are mirror-image parts and **must not be swapped**.
+Follow the assembly diagram and labels on the control board when connecting the servos.
+
+.. list-table:: Servo Signal Mapping
+   :widths: 35 25 40
+   :header-rows: 1
+
+   * - Leg Position
+     - Signal Pin
+     - Abbreviation
+   * - Front Left
+     - GPIO17
+     - LF
+   * - Rear Left
+     - GPIO18
+     - LR
+   * - Front Right
+     - GPIO13
+     - RF
+   * - Rear Right
+     - GPIO14
+     - RR
+
+Recommended assembly order:
+
+#. Fit each SG90 servo into a servo bracket.
+#. Secure the brackets to the body structure.
+#. Install the 3D-printed legs in their correct left/right mirror orientation.
+#. Power on the robot dog and run :guilabel:`Home Position` once.
+#. Check that all four feet rest on the surface and that the body is reasonably level.
+#. If a leg is raised, leaning too far forward, or leaning too far backward, complete :ref:`servo-calibration-en` first.
+
+.. warning::
+
+   Never force a leg by hand while the servo is powered. If a leg contacts the body, binds mechanically, or a servo
+   continues to jitter, stop the action immediately and disconnect power before inspecting the assembly.
 
 **Illustrated Tutorial**
 
