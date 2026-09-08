@@ -17,6 +17,46 @@ browser to control movement, play actions, test OLED expressions, select RGB eff
 
 ----
 
+Powering On and Connecting to Wi-Fi
+-----------------------------------
+
+#. Connect a single 18650 battery to provide a stable power supply.
+#. During startup, the OLED displays initialization and Wi-Fi connection status.
+#. For a detailed Xiaozhi configuration tutorial, please click :ref:`here <configure-xiaozhi>`.
+#. After the device connects to Wi-Fi, it enters standby mode and briefly displays its IP address below the status bar.
+
+.. image:: _static/function/1.IPaddress.png
+   :width: 600
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+#. Write down this address, for example ``192.168.1.100``.
+#. Connect your phone, tablet, or computer to the **same Wi-Fi network** as the robot dog.
+
+In standby mode, the OLED status bar shows:
+
+.. image:: _static/function/2.OLED.png
+   :width: 600
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+* Wi-Fi status on the left;
+* time in the center; and
+* estimated battery level on the right.
+
+.. danger::
+
+   The ESP32-S3 supports **2.4 GHz Wi-Fi only**. The robot dog cannot connect to a 5 GHz-only network. It may also be
+   unreachable from a phone connected through a client-isolated guest network.
+
+----
+
 Intelligent AI Voice Dialogue
 -----------------------------
 

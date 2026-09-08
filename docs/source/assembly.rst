@@ -22,17 +22,6 @@ Before You Begin
 
 ----
 
-**Video Tutorial**
-
-.. video:: _static/assembly/LA076_ROBOT_V2.mp4
-    :width: 100%
-
-----
-
-
-Assembly and Leg Installation
------------------------------
-
 Each servo controls one leg. The left and right legs are mirror-image parts and **must not be swapped**.
 Follow the assembly diagram and labels on the control board when connecting the servos.
 
@@ -69,6 +58,15 @@ Recommended assembly order:
 
    Never force a leg by hand while the servo is powered. If a leg contacts the body, binds mechanically, or a servo
    continues to jitter, stop the action immediately and disconnect power before inspecting the assembly.
+
+----
+
+**Video Tutorial**
+
+.. video:: _static/assembly/LA076_ROBOT_V2.mp4
+    :width: 100%
+
+----
 
 **Illustrated Tutorial**
 

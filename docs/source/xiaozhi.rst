@@ -1,5 +1,7 @@
+.. _configure-xiaozhi:
+
 Configure Xiaozhi
-====================
+=================
 
 - This kit features the built-in "Xiaozhi AI" intelligent voice system.
 
