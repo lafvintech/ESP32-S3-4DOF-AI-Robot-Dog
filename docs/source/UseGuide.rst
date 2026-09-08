@@ -36,7 +36,7 @@ Powering On and Connecting to Wi-Fi
 
    <div style="margin-top: 30px;"></div>
 
-5. Write down this address, for example ``192.168.1.100``.
+5. Write down this address, for example ``192.168.3.227``.
 
 6. Connect your phone, tablet, or computer to the **same Wi-Fi network** as the robot dog.
 
@@ -89,11 +89,17 @@ Movement Controls
 ^^^^^^^^^^^^^^^^^
 
 * :guilabel:`Forward`: Walk forward.
+
 * :guilabel:`Backward`: Walk backward.
+
 * :guilabel:`Turn Left`: Turn left.
+
 * :guilabel:`Turn Right`: Turn right.
+
 * :guilabel:`Home Position`: Return to the calibrated standing pose.
+
 * :guilabel:`Stop`: Stop the current action and return to a safe pose.
+
 
 Preset Actions
 ^^^^^^^^^^^^^^
@@ -165,18 +171,17 @@ If the wake word is not recognized, **short-press the BOOT button** to enter lis
 
 Example voice commands:
 
-.. code-block:: text
-
-   Go forward.
-   Go forward five steps.
-   Go backward three steps.
-   Turn left.
-   Turn right.
-   Sit down.
-   Shake hands.
-   Dance.
-   Show a happy expression.
-   Turn on rainbow lights.
+ - Go forward.
+ - Go forward five steps.
+ - Go backward three steps.
+ - Turn left.
+ - Turn right.
+ - Sit down.
+ - Shake hands.
+ - Dance.
+ - Show a happy expression.
+ - Turn on rainbow lights.
+…
 
 Forward and backward commands support step counts. For example, saying ``Go forward five steps`` repeats the appropriate
 walking sequence five times.
@@ -230,6 +235,22 @@ Open :guilabel:`RGB Lighting` from the bottom of the web interface to turn RGB e
 
 When RGB effects are disabled, the LEDs return to their system-status indication function. In ``Motion Sync`` mode,
 the LEDs are solid white while idle, then vary in color and flash rate with the movement direction, servo speed, and action rhythm.
+
+----
+
+Battery and Power Notes
+-----------------------
+
+* Use one 3.7 V 18650 lithium-ion cell.
+* A fully charged cell is approximately 4.2 V. Low voltage reduces servo torque and Wi-Fi stability.
+* If movement becomes weak, servos jitter, the device restarts, or Wi-Fi disconnects, check the battery level first.
+* Remove the battery when the product will not be used for an extended period.
+* Do not use a damaged, swollen, leaking, or otherwise abnormal battery.
+
+.. warning::
+
+   Servos draw substantial current during movement. Use a sufficiently charged, reliable battery source.
+   Insufficient power can cause OLED flickering, Wi-Fi disconnections, voice failures, or unexpected restarts.
 
 ----
 

@@ -241,9 +241,30 @@ Step 6: Assemble the screen
 
 ----
 
-Servo calibration
------------------
+.. _servo-calibration-en:
 
+Servo Zero-Position Calibration
+-------------------------------
+
+Servo tolerances, servo-horn spline positions, and 3D-printed part tolerances can cause assembly offsets. Use the
+:guilabel:`Servo Setup` page to calibrate the Home position of each leg.
+
+#. Select :guilabel:`Home Position` to move the robot dog to its initial standing pose.
+#. Check whether all four feet contact the surface and whether the body leans noticeably to one side.
+#. Choose the leg to adjust in :guilabel:`Servo Setup`.
+#. Use ``−`` or ``+`` to adjust the value in **1° increments**.
+#. Select :guilabel:`Apply and Go Home` to check the result.
+#. Repeat as needed until all four feet make stable contact and the body is approximately level.
+
+The calibrated zero positions are stored in the device and are applied automatically to the Home pose, walking, turning,
+and preset action routines.
+
+.. danger::
+
+   Adjust by only 1--2° at a time and observe the result before making further changes. Large adjustments may cause a leg
+   to hit the body, lift a foot off the surface, or stall a servo at its mechanical limit.
+
+----
 
 FAQ For Assembly
 ----------------

@@ -3,7 +3,9 @@ Introduction
 
 Dear friends, welcome to the learning world of the ESP32 S3 4DOF AI robot dog!
 
-Please read this document carefully. If you encounter any problems during use, please contact our after-sales support team at **`support@lafvin.cn`**, and we will assist you as soon as possible.
+Please read this documentation carefully. If you encounter any problems during use, please contact our after-sales support team, and we will assist you as soon as possible.
+
+**Contact us: support@lafvin.cn**
 
 ----
 
