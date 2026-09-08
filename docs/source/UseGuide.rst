@@ -20,10 +20,10 @@ browser to control movement, play actions, test OLED expressions, select RGB eff
 Powering On and Connecting to Wi-Fi
 -----------------------------------
 
-#. Connect a single 18650 battery to provide a stable power supply.
-#. During startup, the OLED displays initialization and Wi-Fi connection status.
-#. For a detailed Xiaozhi configuration tutorial, please click :ref:`here <configure-xiaozhi>`.
-#. After the device connects to Wi-Fi, it enters standby mode and briefly displays its IP address below the status bar.
+1. Connect a single 18650 battery to provide a stable power supply.
+2. During startup, the OLED displays initialization and Wi-Fi connection status.
+3. For a detailed Xiaozhi configuration tutorial, please click :ref:`here <configure-xiaozhi>`.
+4. After the device connects to Wi-Fi, it enters standby mode and briefly displays its IP address below the status bar.
 
 .. image:: _static/function/1.IPaddress.png
    :width: 600
@@ -33,8 +33,8 @@ Powering On and Connecting to Wi-Fi
 
    <div style="margin-top: 30px;"></div>
 
-#. Write down this address, for example ``192.168.1.100``.
-#. Connect your phone, tablet, or computer to the **same Wi-Fi network** as the robot dog.
+5. Write down this address, for example ``192.168.1.100``.
+6. Connect your phone, tablet, or computer to the **same Wi-Fi network** as the robot dog.
 
 In standby mode, the OLED status bar shows:
 
