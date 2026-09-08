@@ -1,7 +1,19 @@
 Function Usage Guide
 ====================
 
-**This section explains how to use the LAFVIN Desktop AI Gimbal Robot through its main functions and real operating workflows. It covers gesture recognition, OLED display interaction, servo control, Follow this guide when configuring the system, running demos, and troubleshooting common issues to make the most of your robot.**
+The LAFVIN 4DOF AI Robot Dog is a DIY kit for a four-DOF intelligent robot dog based on the ESP32-S3 microcontroller.
+
+Four SG90 micro servos drive the left front, left rear, right front, and right rear legs respectively, enabling walking, turning, and motion performance.
+
+The robot dog integrates Wi-Fi, AI voice interaction, OLED dynamic expressions, a speaker, RGB lighting effects, web control, and battery monitoring.
+
+Users can interact with the robot dog via voice or through a mobile browser to control its movement, perform motions, test expressions, set RGB lighting effects, and calibrate the servos' zero point.
+
+.. important::
+
+ This product is an assemblable and adjustable robot kit. Leg mounting angle, servo batch, and 3D printing errors will all affect standing and walking performance. Before first use, please complete the ``Home Position`` check and servo zero-point calibration.
+
+----
 
 Intelligent AI Voice Dialogue
 -----------------------------
