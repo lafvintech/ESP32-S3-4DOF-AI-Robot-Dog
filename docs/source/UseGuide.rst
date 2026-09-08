@@ -21,8 +21,11 @@ Powering On and Connecting to Wi-Fi
 -----------------------------------
 
 1. Connect a single 18650 battery to provide a stable power supply.
+
 2. During startup, the OLED displays initialization and Wi-Fi connection status.
+
 3. For a detailed Xiaozhi configuration tutorial, please click :ref:`here <configure-xiaozhi>`.
+
 4. After the device connects to Wi-Fi, it enters standby mode and briefly displays its IP address below the status bar.
 
 .. image:: _static/function/1.IPaddress.png
@@ -34,6 +37,7 @@ Powering On and Connecting to Wi-Fi
    <div style="margin-top: 30px;"></div>
 
 5. Write down this address, for example ``192.168.1.100``.
+
 6. Connect your phone, tablet, or computer to the **same Wi-Fi network** as the robot dog.
 
 In standby mode, the OLED status bar shows:
@@ -84,106 +88,77 @@ This project is perfectly compatible with Xiaozhi AI and supports multiple langu
  - "What is the weather like tomorrow?"
 …
 
-- With the servo gimbal, you can also say: 
 
- - "Shake your head left/right"
- - "Scan left, right, and up."
- - "Shaking head left and right"
- - "Look up"
- - "Nod"
-…
+Once the device is online and its AI voice service has initialized, use the configured wake word to start an interaction.
+If the wake word is not recognized, **short-press the BOOT button** to enter listening mode directly, then speak your command.
 
-.. attention::
+Example voice commands:
 
- - The factory default wake-up phrase is **Hi，ESP!** .
+.. code-block:: text
 
- - Alternatively, you can start a conversation by briefly pressing the **BOOT** button.
+   Go forward.
+   Go forward five steps.
+   Go backward three steps.
+   Turn left.
+   Turn right.
+   Sit down.
+   Shake hands.
+   Dance.
+   Show a happy expression.
+   Turn on rainbow lights.
 
-----
+Forward and backward commands support step counts. For example, saying ``Go forward five steps`` repeats the appropriate
+walking sequence five times.
 
-Emoticon Mode
--------------
+.. note::
 
-After the robot is powered on, it defaults to conversation mode. You can enter expression mode by long-pressing the **BOOT** button. In this mode, the robot will respond to your voice commands by displaying corresponding emoticons on its OLED screen. This allows for a fun and interactive way to express emotions through the robot. You can switch back to conversation mode by long-pressing the **BOOT** button again.
-
-.. image:: _static/function/4.display.png
-   :width: 600
-   :align: center
-
-.. raw:: html
-
-   <div style="margin-top: 30px;"></div>
-
-- In Emoticon Mode,you can say:
-
- - "Show me a happy face"
- - "Show me a sad face"
- - "Play badminton animation"
- - "Play Face ID animation"
-…
-
-- The following are 41 graphic expressions built into the system. You can directly say:
-
-.. image:: _static/function/1.biaoqinji.png
-   :width: 400
-   :align: center
-
-.. raw:: html
-
-   <div style="margin-top: 30px;"></div>
-
-- For example: **Play Rainy animation**, and the system can play the corresponding graphic expressions.
+   Voice recognition depends on network quality, ambient noise, speaking distance, and microphone installation.
+   For best results, speak clearly, use short commands, and stay close to the robot dog.
 
 ----
 
-Gesture Recognition
--------------------
+OLED Expression Mode
+--------------------
 
-.. image:: _static/function/2.gesture.png
-   :width: 600
-   :align: center
+In normal mode, the OLED shows Wi-Fi status, time, battery level, dialogue subtitles, and a small expression.
+**Long-press the BOOT button** to enter or exit ``Expression Mode``.
 
-.. raw:: html
+In Expression Mode, the screen focuses on animated eye expressions and no longer shows dialogue subtitles. Voice audio
+output continues normally. Use the :guilabel:`Expressions` page in the web interface to test the available expressions:
 
-   <div style="margin-top: 30px;"></div>
+* Neutral, Happy, Sad, Angry, and Surprised;
+* Thinking, Sleepy, Winking, and Crying.
 
-This robot is equipped with a gesture recognition system that understands and responds to specific gestures. With this feature, you can control the gimbal's direction without using voice commands. You can make various gestures in front of the gesture recognition module, and it will recognize and execute the corresponding functions.
+When Expression Mode is active, some motion routines also display randomly selected expressions that match the action.
 
-- Supported gestures include:
+----
 
-- "Swipe left"
+RGB Lighting
+------------
 
-- "Swipe right"
+Open :guilabel:`RGB Lighting` from the bottom of the web interface to turn RGB effects on or off and select an effect:
 
-- "Swipe up"
+.. list-table::
+   :widths: 25 75
+   :header-rows: 1
 
-- "Swipe down"
+   * - Effect
+     - Description
+   * - ``Solid``
+     - Solid white light.
+   * - ``Breathe``
+     - Breathing light effect.
+   * - ``Rainbow``
+     - Rainbow color transition.
+   * - ``Flow``
+     - Flowing light effect.
+   * - ``Flash``
+     - White flashing light.
+   * - ``Motion Sync``
+     - Lighting synchronized with walking and servo movement.
 
-- "Circle clockwise"
-
-- "Circle counterclockwise"
-
-- "Push palm forward"
-
-- "Push palm forward"
-
-- "Quick wave"
-
-For example, you can swipe left to turn the gimbal to the left, or draw a circle clockwise to display various expressions on the OLED screen. The gesture recognition system provides an intuitive way to interact with the robot and control its behavior in real time.
-
-.. attention:: 
-
-  To ensure accurate recognition by the PAJ7620U2 module when making gestures, please note the following:
-
- - Control the distance: Place your hand 5cm to 15cm directly above the sensor. Too close or too far will easily lead to recognition failure.
-
- - Control the speed: The movement should be crisp and steady. Avoid moving too slowly (like a snail's pace), but a normal speed is sufficient; extreme speed is unnecessary.
-
- - Complete the circles: When making clockwise or counterclockwise gestures, at least two complete circles need to be completed consecutively.
-
- - Distinguish between "forward" and "backward": This refers to vertical pushing/pulling (approaching/moving away from the sensor), not horizontal sliding.
-
- - Avoid strong light: Avoid using the device in direct sunlight or under strong lights to prevent interference with the infrared signal.
+When RGB effects are disabled, the LEDs return to their system-status indication function. In ``Motion Sync`` mode,
+the LEDs are solid white while idle, then vary in color and flash rate with the movement direction, servo speed, and action rhythm.
 
 ----
 
