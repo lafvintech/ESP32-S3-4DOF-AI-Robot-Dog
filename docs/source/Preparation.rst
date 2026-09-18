@@ -1,21 +1,20 @@
 1. Flash The Firmware
 =====================
 
-**This product was not pre-programmed at the time of shipment. To use it, you will need to flash the program yourself. Please follow the instructions below to complete the flashing process.**
+- This product comes with the necessary firmware pre-installed. Power on the device and turn on the switch: if the RGB lights flash, the firmware is already installed, and you can skip this step;
+
+- If not, please follow the steps below to flash the firmware.
+
+----
 
 Online Flashing
 ---------------
 
 - This method allows you to flash the program directly through the online platform without needing to install any additional software on your computer. It is a convenient option for users who prefer a straightforward flashing process.
 
-- Please watch the video below first to learn how to flash the firmware to the main control board：
-
-.. video:: _static/flash/flash.mp4
-    :width: 100%
+**Below is a detailed step-by-step tutorial with images.**
 
 ----
-
-**Below is a detailed step-by-step tutorial with images.**
 
 Step 1: Connect the Device
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -73,7 +72,7 @@ Step 4: Select the Firmware
 
 Select the corresponding firmware as shown in the images below.
 
-.. image:: _static/flash/5.固件.png
+.. image:: _static/flash/5.固件1.png
    :width: 800
    :align: center   
 
@@ -81,9 +80,21 @@ Select the corresponding firmware as shown in the images below.
 
    <div style="margin-top: 30px;"></div>
 
-.. image:: _static/flash/6.固件.png
+.. image:: _static/flash/5.固件2.png
    :width: 800
    :align: center   
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+.. image:: _static/flash/5.固件3.png
+   :width: 800
+   :align: center   
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
 
 ----
 
@@ -103,6 +114,10 @@ Click the "Flash" button to start the flashing process. The progress will be dis
 .. image:: _static/flash/8.烧录.png
    :width: 800
    :align: center   
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
 
 .. attention::
 
