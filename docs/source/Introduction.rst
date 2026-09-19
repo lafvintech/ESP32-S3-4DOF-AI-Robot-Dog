@@ -129,7 +129,7 @@ Technical Parameters
 GPIO Pin Mapping
 -----------------
 
-.. list-table:: GPIO Assignment
+.. list-table:: 
    :header-rows: 1
    :widths: 25 25 25
 
