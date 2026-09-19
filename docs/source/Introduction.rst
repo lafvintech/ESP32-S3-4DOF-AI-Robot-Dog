@@ -255,7 +255,7 @@ The sample code required for this course has been provided; you can access all t
 
 .. raw:: html
 
-    <a href="_static/Code_and_firmware.zip" class="btn btn-primary" download>📥 Download Code_and_firmware</a>
+    <a href="_static/Code_and_firmware.zip" class="btn btn-primary" download>📥 Download Code and Firmware</a>
     
 ----
 
