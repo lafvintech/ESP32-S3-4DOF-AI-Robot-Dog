@@ -79,7 +79,7 @@ Step 1: Assemble the servo
 
 - SG90 servo motors (4 PCS)
 
-- Metal servo bracket
+- Metal servo bracket (4 PCS)
 
 - M2x8mm screws (8 PCS)
 
