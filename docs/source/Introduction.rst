@@ -136,7 +136,7 @@ GPIO Pin Mapping
    * - Module
      - Signal
      - GPIO
-   * - RGB-DIN
+   * - RGB Light
      - DIN
      - GPIO8
    * - MAX98357 Amplifier
