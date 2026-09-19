@@ -95,7 +95,6 @@ Bill of Materials
 
 ----
 
-
 Technical Parameters
 --------------------
 
@@ -125,9 +124,74 @@ Technical Parameters
    * - Speaker
      - 8Ω 2W
 
-.. raw:: html
+----
 
-   <div style="margin-top: 30px;"></div>
+GPIO Pin Mapping
+-----------------
+
+.. list-table:: GPIO Assignment
+   :header-rows: 1
+   :widths: 25 25 25
+
+   * - Module
+     - Signal
+     - GPIO
+   * - RGB-DIN
+     - DIN
+     - GPIO8
+   * - MAX98357 Amplifier
+     - DIN
+     - GPIO7
+   * - MAX98357 Amplifier
+     - BCLK
+     - GPIO15
+   * - MAX98357 Amplifier
+     - LRCLK
+     - GPIO16
+   * - MAX98357 Amplifier
+     - GAIN
+     - GND
+   * - MAX98357 Amplifier
+     - SD
+     - 3V3
+   * - ZTS6672 Microphone
+     - WS
+     - GPIO4
+   * - ZTS6672 Microphone
+     - SCK
+     - GPIO5
+   * - ZTS6672 Microphone
+     - SD
+     - GPIO6
+   * - ZTS6672 Microphone
+     - LR
+     - GND
+   * - OLED Display
+     - SDA
+     - GPIO41
+   * - OLED Display
+     - SCL
+     - GPIO42
+   * - Servo Motor
+     - Left Front
+     - GPIO17
+   * - Servo Motor
+     - Left Rear
+     - GPIO18
+   * - Servo Motor
+     - Right Front
+     - GPIO13
+   * - Servo Motor
+     - Right Rear
+     - GPIO14
+   * - BOOT Button
+     - BOOT
+     - GPIO0
+   * - Battery Detection
+     - ADC
+     - GPIO2
+
+----
 
 Function Introduction
 ---------------------
@@ -191,7 +255,7 @@ The sample code required for this course has been provided; you can access all t
 
 .. raw:: html
 
-    <a href="_static/Test_Code.zip" class="btn btn-primary" download>📥 Download Example program</a>
+    <a href="_static/Code_and_firmware.zip" class="btn btn-primary" download>📥 Download Code_and_firmware</a>
     
 ----
 
