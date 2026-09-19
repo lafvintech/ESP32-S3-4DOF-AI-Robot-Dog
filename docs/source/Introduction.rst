@@ -73,6 +73,9 @@ Bill of Materials
    * - 11
      - Cable Tie
      - x4
+   * - 12
+     - Round Double Sided Adhesive
+     - x4
 
 .. raw:: html
 

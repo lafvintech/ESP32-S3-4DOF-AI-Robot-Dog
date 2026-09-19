@@ -81,11 +81,11 @@ Step 1: Assemble the servo
 
 - Metal servo bracket
 
-- M2 x 10mm screws (8 PCS)
+- M2x8mm screws (8 PCS)
 
 **Assembly Steps:**
 
-- Attach the SG90 servo motors to the metal servo bracket using the M2 x 10mm screws. Ensure that the servo motors are securely fastened and aligned properly.
+- Attach the SG90 servo motors to the metal servo bracket using the M2x8mm screws. Ensure that the servo motors are securely fastened and aligned properly.
 
 .. image:: _static/assembly/1.assemble_servo.png
    :width: 800
@@ -118,11 +118,11 @@ Step 2: Assemble the servo motor into the body
 
 - Main control board
 
-- M2 x 10mm screws (8 PCS)
+- M2x8mm screws (8 PCS)
 
 **Assembly Steps:**
 
-- Secure the servo motors to the main control board using the M2 x 10mm screws. Ensure that all screws are tightened properly to prevent any movement during operation.
+- Secure the servo motors to the main control board using the M2x8mm screws. Ensure that all screws are tightened properly to prevent any movement during operation.
 
 - Insert the assembled servo motors into the designated slots on the main control board. Make sure that the servo motors are oriented correctly and that the wires are not pinched or obstructed.
 
@@ -222,12 +222,12 @@ Step 6: Assemble the screen
 
 - 0.96" OLED Screen (1 PCS)
 - 3D printed head parts (1 PCS)
-- M2x10mm screws (4 PCS)
+- M2x8mm screws (4 PCS)
 - M2 nuts (4 PCS)
 
 **Assembly Steps:**
 
-- Use M2x10mm screws and M2 nuts to attach the 0.96" OLED screen to the 3D-printed head parts. Ensure that the screen is securely fastened and properly aligned.
+- Use M2x8mm screws and M2 nuts to attach the 0.96" OLED screen to the 3D-printed head parts. Ensure that the screen is securely fastened and properly aligned.
 
 - Insert the assembled screen into the designated slot on the main control board. Make sure that the screen is oriented correctly.
 
