@@ -265,7 +265,3 @@ and preset action routines.
    to hit the body, lift a foot off the surface, or stall a servo at its mechanical limit.
 
 ----
-
-FAQ For Assembly
-----------------
-
