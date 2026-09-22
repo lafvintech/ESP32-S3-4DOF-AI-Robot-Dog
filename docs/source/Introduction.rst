@@ -11,7 +11,7 @@ Please read this documentation carefully. If you encounter any problems during u
 
 **ESP32 S3 4DOF AI Robot Dog**
 
-.. image:: _static/Introduction/1.board.png
+.. image:: _static/Introduction/1.dog.png
    :width: 600
    :align: center
 
@@ -97,6 +97,14 @@ Bill of Materials
 
 Technical Parameters
 --------------------
+
+.. image:: _static/Introduction/3.PCB.png
+   :width: 600
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
 
 .. list-table:: 
    :header-rows: 1
