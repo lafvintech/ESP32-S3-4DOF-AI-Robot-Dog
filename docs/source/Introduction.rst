@@ -98,14 +98,6 @@ Bill of Materials
 Technical Parameters
 --------------------
 
-.. image:: _static/Introduction/3.PCB.png
-   :width: 600
-   :align: center
-
-.. raw:: html
-
-   <div style="margin-top: 30px;"></div>
-
 .. list-table:: 
    :header-rows: 1
    :widths: 20 30
@@ -136,6 +128,14 @@ Technical Parameters
 
 GPIO Pin Mapping
 -----------------
+
+.. image:: _static/Introduction/3.PCB.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
 
 .. list-table:: 
    :header-rows: 1
