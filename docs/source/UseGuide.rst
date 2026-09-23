@@ -25,11 +25,27 @@ Powering On and Connecting to Wi-Fi
    The ESP32-S3 supports **2.4 GHz Wi-Fi only**. The robot dog cannot connect to a 5 GHz-only network. It may also be
    unreachable from a phone connected through a client-isolated guest network.
 
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
 1. Connect a single 18650 battery to provide a stable power supply.
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
 
 2. During startup, the OLED displays initialization and Wi-Fi connection status.
 
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
 3. For a detailed Xiaozhi configuration tutorial, please click :ref:`here <configure-xiaozhi>`.
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
 
 4. After the device connects to Wi-Fi, it enters standby mode and briefly displays its IP address below the status bar.
 
@@ -41,7 +57,7 @@ Powering On and Connecting to Wi-Fi
 
    <div style="margin-top: 30px;"></div>
 
-5. Write down this address, for example ``192.168.3.227``.
+5. Write down this address, for example ``192.168.3.118``.
 
 6. Connect your phone, tablet, or computer to the **same Wi-Fi network** as the robot dog.
 
