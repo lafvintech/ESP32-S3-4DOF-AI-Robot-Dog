@@ -180,9 +180,9 @@ Add device
 
 .. raw:: html
 
-    <div style="margin-top: 30px;"></div>
+   <div style="margin-top: 30px;"></div>
 
-4. Now you can talk to it.
+4. Try briefly pressing the **BOOT** button, and then you can speak to it.
 
 ----
 
@@ -191,28 +191,35 @@ Configure Roles
 
 **To make it more fun, you can configure your unique character as follows:**
 
-
-1. Configure Agent Parameters:
-
- - Assistant Name: Name your AI assistant
-
- - Voice Role: Select your preferred voice style
-
- - Language Preference: Set the conversation language
-
- - Role Introduction: Define the personality traits of the AI assistant
-
- - Language Model: Select the language model to use
-
-.. image:: _static/xiaozhi/12.xiaozhi.png
+.. image:: _static/xiaozhi/14.xiaozhi.png
    :width: 800
    :align: center
 
 .. raw:: html
 
-  <div style="margin-top: 30px;"></div>
+   <div style="margin-top: 30px;"></div>
 
-2. Set the Role Prompt. It is recommended to use the following template, or you can create your own role prompt:
+1. You can customize your AI robot dog here.
+
+.. image:: _static/xiaozhi/15.xiaozhi.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+2. You can modify the dialogue language and the character's voice tone here.
+
+.. image:: _static/xiaozhi/17.xiaozhi.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+3. To better match the robotic dog, you can copy the content below to modify the character.
 
 .. container:: role-prompt-copy
 
@@ -234,19 +241,128 @@ Configure Roles
 
    <div style="margin-top: 30px;"></div>
 
-3. Click the “Save” button to save the role configuration.
+4. Click the “Save” button to save the role configuration.
 
-.. image:: _static/xiaozhi/13.xiaozhi.png
+.. image:: _static/xiaozhi/16.xiaozhi.png
    :width: 800
    :align: center
 
 .. raw:: html
 
-    <div style="margin-top: 30px;"></div>
+   <div style="margin-top: 30px;"></div>
 
-4. After configuring the character, you need to press the **RST** button on the main control panel again for the configuration to take effect.
+5. After configuring the character, you need to press the **RST** button on the main control panel again for the configuration to take effect.
 
 -----
+
+Set wake word
+--------------
+
+.. attention::
+
+ - The robot dog is not configured with a wake word upon initial startup; you can start a conversation by briefly pressing the "BOOT" button on the device.
+
+ - If you wish to set up a wake word, please follow the steps below.
+
+1. Click the "Device Button"
+
+.. image:: _static/xiaozhi/18.xiaozhi.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+2. Click "Theme Settings" in the pop-up window.
+
+.. image:: _static/xiaozhi/19.xiaozhi.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+3. Use the default configuration; no changes are needed—simply click Next.
+
+.. image:: _static/xiaozhi/20.xiaozhi.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+4. Set up your wake word by following the steps shown in the image, then click Next.
+
+.. image:: _static/xiaozhi/21.xiaozhi.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+5. Click "Generate assets.bin" in the bottom-right corner.
+
+.. image:: _static/xiaozhi/23.xiaozhi.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+6. Then click "Start Generate".
+
+.. image:: _static/xiaozhi/24.xiaozhi.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+7. Waiting for firmware generation.
+
+.. image:: _static/xiaozhi/25.xiaozhi.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+8. Click to program the device online and wait for the process to complete.
+
+.. image:: _static/xiaozhi/27.xiaozhi.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+.. image:: _static/xiaozhi/26.xiaozhi.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+- The flashing progress will also be displayed on the robot dog's screen.
+
+.. image:: _static/xiaozhi/26.xiaozhi.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+----
 
 **Now you can have a conversation with your personalized AI assistant!**
 
