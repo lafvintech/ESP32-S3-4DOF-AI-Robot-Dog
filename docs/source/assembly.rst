@@ -124,8 +124,6 @@ Step 2: Assemble the servo motor into the body
 
 - Secure the servo motors to the main control board using the M2x8mm screws. Ensure that all screws are tightened properly to prevent any movement during operation.
 
-- Insert the assembled servo motors into the designated slots on the main control board. Make sure that the servo motors are oriented correctly and that the wires are not pinched or obstructed.
-
 .. image:: _static/assembly/3.assemble_servo.png
    :width: 800
    :align: center   
@@ -134,6 +132,26 @@ Step 2: Assemble the servo motor into the body
 
    <div style="margin-top: 30px;"></div>
 
+- Insert the assembled servo motors into the designated slots on the main control board. Make sure that the servo motors are oriented correctly and that the wires are not pinched or obstructed.
+
+.. image:: _static/assembly/3.assemble_servo2.png
+   :width: 800
+   :align: center   
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+.. attention::
+
+ The SG90 servo has three wires; please identify the colors before connecting them to the corresponding terminals:
+
+ Brown wire → Ground (GND)
+
+ Red wire → Positive power supply (VCC)
+
+ Yellow/Orange wire → PWM signal input
+ 
 ----
 
 Step 3: Assemble the swing arm to the leg
