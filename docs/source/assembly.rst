@@ -135,7 +135,7 @@ Step 2: Assemble the servo motor into the body
 - Insert the assembled servo motors into the designated slots on the main control board. Make sure that the servo motors are oriented correctly and that the wires are not pinched or obstructed.
 
 .. image:: _static/assembly/3.assemble_servo2.png
-   :width: 800
+   :width: 500
    :align: center   
 
 .. raw:: html
@@ -151,7 +151,7 @@ Step 2: Assemble the servo motor into the body
  Red wire → Positive power supply (VCC)
 
  Yellow/Orange wire → PWM signal input
- 
+
 ----
 
 Step 3: Assemble the swing arm to the leg
