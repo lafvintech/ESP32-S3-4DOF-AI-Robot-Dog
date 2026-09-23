@@ -354,7 +354,7 @@ Set wake word
 
 - The flashing progress will also be displayed on the robot dog's screen.
 
-.. image:: _static/xiaozhi/26.xiaozhi.png
+.. image:: _static/xiaozhi/28.xiaozhi.png
    :width: 800
    :align: center
 

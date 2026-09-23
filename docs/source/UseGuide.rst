@@ -20,6 +20,11 @@ browser to control movement, play actions, test OLED expressions, select RGB eff
 Powering On and Connecting to Wi-Fi
 -----------------------------------
 
+.. danger::
+
+   The ESP32-S3 supports **2.4 GHz Wi-Fi only**. The robot dog cannot connect to a 5 GHz-only network. It may also be
+   unreachable from a phone connected through a client-isolated guest network.
+
 1. Connect a single 18650 battery to provide a stable power supply.
 
 2. During startup, the OLED displays initialization and Wi-Fi connection status.
@@ -54,10 +59,9 @@ In standby mode, the OLED status bar shows:
 * time in the center; and
 * estimated battery level on the right.
 
-.. danger::
+.. note::
 
-   The ESP32-S3 supports **2.4 GHz Wi-Fi only**. The robot dog cannot connect to a 5 GHz-only network. It may also be
-   unreachable from a phone connected through a client-isolated guest network.
+   The OLED battery percentage is an estimate. A small difference from the voltage measured by a multimeter is normal.
 
 ----
 
@@ -198,10 +202,6 @@ OLED Expression Mode
 
 In normal mode, the OLED shows Wi-Fi status, time, battery level, dialogue subtitles, and a small expression.
 **Long-press the BOOT button** to enter or exit ``Expression Mode``.
-
-.. note::
-
-   The OLED battery percentage is an estimate. A small difference from the voltage measured by a multimeter is normal.
 
 .. image:: _static/function/6.oled.png
    :width: 600
