@@ -61,6 +61,61 @@ In standby mode, the OLED status bar shows:
 
 ----
 
+Intelligent AI Voice Dialogue
+-----------------------------
+
+.. image:: _static/function/5.Xiaozhi.png
+   :width: 600
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+This project is perfectly compatible with Xiaozhi AI and supports multiple languages. You can converse with the robot via voice. The robot will process your voice input and respond accordingly based on your configured settings.
+
+- You can ask it any questions:
+
+ - "What is the weather like today?"
+ - "What is the current time?"
+ - "What is the current humidity?"
+ - "Tell a joke"
+ - "What is the capital of France?"
+ - "How are you doing?"
+ - "What is the meaning of life?"
+ - "Tell me a story"
+ - "What is your favorite color?"
+ - "What is the weather like tomorrow?"
+…
+
+
+Once the device is online and its AI voice service has initialized, use the configured wake word to start an interaction.
+If the wake word is not recognized, **short-press the BOOT button** to enter listening mode directly, then speak your command.
+
+Example voice commands:
+
+ - Go forward.
+ - Go forward five steps.
+ - Go backward three steps.
+ - Turn left.
+ - Turn right.
+ - Sit down.
+ - Shake hands.
+ - Dance.
+ - Show a happy expression.
+ - Turn on rainbow lights.
+…
+
+Forward and backward commands support step counts. For example, saying ``Go forward five steps`` repeats the appropriate
+walking sequence five times.
+
+.. note::
+
+   Voice recognition depends on network quality, ambient noise, speaking distance, and microphone installation.
+   For best results, speak clearly, use short commands, and stay close to the robot dog.
+
+----
+
 Web Control
 -----------
 
@@ -138,61 +193,6 @@ The web interface includes nine preset actions:
 
 ----
 
-Intelligent AI Voice Dialogue
------------------------------
-
-.. image:: _static/function/5.Xiaozhi.png
-   :width: 600
-   :align: center
-
-.. raw:: html
-
-   <div style="margin-top: 30px;"></div>
-
-This project is perfectly compatible with Xiaozhi AI and supports multiple languages. You can converse with the robot via voice. The robot will process your voice input and respond accordingly based on your configured settings.
-
-- You can ask it any questions:
-
- - "What is the weather like today?"
- - "What is the current time?"
- - "What is the current humidity?"
- - "Tell a joke"
- - "What is the capital of France?"
- - "How are you doing?"
- - "What is the meaning of life?"
- - "Tell me a story"
- - "What is your favorite color?"
- - "What is the weather like tomorrow?"
-…
-
-
-Once the device is online and its AI voice service has initialized, use the configured wake word to start an interaction.
-If the wake word is not recognized, **short-press the BOOT button** to enter listening mode directly, then speak your command.
-
-Example voice commands:
-
- - Go forward.
- - Go forward five steps.
- - Go backward three steps.
- - Turn left.
- - Turn right.
- - Sit down.
- - Shake hands.
- - Dance.
- - Show a happy expression.
- - Turn on rainbow lights.
-…
-
-Forward and backward commands support step counts. For example, saying ``Go forward five steps`` repeats the appropriate
-walking sequence five times.
-
-.. note::
-
-   Voice recognition depends on network quality, ambient noise, speaking distance, and microphone installation.
-   For best results, speak clearly, use short commands, and stay close to the robot dog.
-
-----
-
 OLED Expression Mode
 --------------------
 
@@ -202,6 +202,14 @@ In normal mode, the OLED shows Wi-Fi status, time, battery level, dialogue subti
 .. note::
 
    The OLED battery percentage is an estimate. A small difference from the voltage measured by a multimeter is normal.
+
+.. image:: _static/function/6.oled.png
+   :width: 600
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
 
 In Expression Mode, the screen focuses on animated eye expressions and no longer shows dialogue subtitles. Voice audio
 output continues normally. Use the :guilabel:`Expressions` page in the web interface to test the available expressions:
@@ -217,6 +225,14 @@ RGB Lighting
 ------------
 
 Open :guilabel:`RGB Lighting` from the bottom of the web interface to turn RGB effects on or off and select an effect:
+
+.. image:: _static/function/7.rgb.png
+   :width: 600
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
 
 .. list-table::
    :widths: 25 75
