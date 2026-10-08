@@ -12,7 +12,7 @@ Please read this documentation carefully. If you encounter any problems during u
 **ESP32 S3 4DOF AI Robot Dog**
 
 .. image:: _static/Introduction/1.dog.png
-   :width: 600
+   :width: 800
    :align: center
 
 .. raw:: html
@@ -25,7 +25,7 @@ Bill of Materials
 -----------------
 
 .. image:: _static/Introduction/2.bom.png
-   :width: 600
+   :width: 800
    :align: center
 
 .. raw:: html
