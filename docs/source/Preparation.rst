@@ -3,6 +3,14 @@
 
 - This product comes with the necessary firmware pre-installed. Power on the device and turn on the switch: if the RGB lights flash, the firmware is already installed, and you can skip this step;
 
+.. image:: _static/flash/1.烧录.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
 - If not, please follow the steps below to flash the firmware.
 
 ----
