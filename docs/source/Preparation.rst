@@ -1,3 +1,6 @@
+
+.. _Flash The Firmware:
+
 1. Flash The Firmware
 =====================
 
