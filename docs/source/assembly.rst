@@ -7,7 +7,7 @@
 
       Before starting the assembly, please make sure to read the instructions carefully and follow the steps in order. If you encounter any issues during the assembly process, feel free to reach out to our support team for assistance. We are here to help you every step of the way!    
             
-      Before assembly, please make sure to flash the program onto the main control board to ensure that subsequent servo calibration can proceed normally. If you have not yet completed the flashing process, please refer to the `Flashing Program <FlashingProgram.html>`_ chapter for detailed instructions on how to flash the firmware onto the main control board.
+      Before assembly, please make sure to flash the program onto the main control board to ensure that subsequent servo calibration can proceed normally. If you have not yet completed the flashing process, please refer to the :ref:`Flashing The Firmware` chapter for detailed instructions on how to flash the firmware onto the main control board.
 
 ----
 
@@ -263,6 +263,10 @@ Step 6: Assemble the screen
 
 Servo Zero-Position Calibration
 -------------------------------
+
+- Servo calibration requires configuration via the web interface. Click here to view instructions on how to access the web interface. :ref:`Web Control` 
+
+- The specific steps for calibrating the servos are outlined below.
 
 Servo tolerances, servo-horn spline positions, and 3D-printed part tolerances can cause assembly offsets. Use the
 :guilabel:`Servo Setup` page to calibrate the Home position of each leg.

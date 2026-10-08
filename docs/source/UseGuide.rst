@@ -136,6 +136,8 @@ walking sequence five times.
 
 ----
 
+.. _Web Control:
+
 Web Control
 -----------
 
