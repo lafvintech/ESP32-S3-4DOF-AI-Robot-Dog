@@ -7,8 +7,7 @@
 
       Before starting the assembly, please make sure to read the instructions carefully and follow the steps in order. If you encounter any issues during the assembly process, feel free to reach out to our support team for assistance. We are here to help you every step of the way!    
             
-      Before assembly, please make sure to flash the program onto the main control board to ensure that subsequent servo calibration can proceed normally. If you have not yet completed the flashing process, please refer to the :ref:`Flashing The Firmware` chapter for detailed instructions on how to flash the firmware onto the main control board.
-
+      Before assembly, be sure to flash the program onto the main control board to ensure that the subsequent servo calibration can be performed correctly. If you have not yet completed the flashing process, please click here for detailed instructions on how to flash the firmware to the main control board. :ref:`Flash The Firmware`
 ----
 
 Before You Begin
