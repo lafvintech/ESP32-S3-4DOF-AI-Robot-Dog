@@ -82,6 +82,8 @@ Step 1: Assemble the servo
 
 - M2x8mm screws (8 PCS)
 
+- M2 nuts (8 PCS)
+
 **Assembly Steps:**
 
 - Attach the SG90 servo motors to the metal servo bracket using the M2x8mm screws. Ensure that the servo motors are securely fastened and aligned properly.
