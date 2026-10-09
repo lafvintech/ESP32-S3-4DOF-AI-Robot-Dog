@@ -86,11 +86,6 @@ Step 1: Assemble The Servo
 
    <div style="margin-top: 30px;"></div>
 
-
-.. attention::
-
-  The servo motors are installed in two different directions: one group for the front legs and one group for the rear legs.
-
 .. image:: _static/assembly/4.png
    :width: 800
    :align: center   
@@ -98,6 +93,10 @@ Step 1: Assemble The Servo
 .. raw:: html
 
    <div style="margin-top: 30px;"></div>
+
+.. attention::
+
+  The servo motors are installed in two different directions: one group for the front legs and one group for the rear legs.
 
 ----
 

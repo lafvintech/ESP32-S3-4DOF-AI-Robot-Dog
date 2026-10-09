@@ -14,6 +14,8 @@
 
    <div style="margin-top: 30px;"></div>
 
+- The RGB light colors shown in the image are for reference only; the fact that the RGB light is on indicates that the firmware has been flashed.
+
 - If not, please follow the steps below to flash the firmware.
 
 ----
@@ -33,7 +35,7 @@ Step 1: Connect the Device
 Use the provided Type-C data cable to connect the **ESP32 S3 4DOF AI Robot Dog** to your computer.
 
 .. image:: _static/flash/9.type-c.png
-   :width: 400
+   :width: 800
    :align: center
 
 .. raw:: html
