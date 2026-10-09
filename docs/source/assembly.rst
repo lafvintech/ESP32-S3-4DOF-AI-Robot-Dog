@@ -66,9 +66,9 @@ Step 1: Assemble the servo
 
 **Required components:**
 
-- SG90 servo motors (4 PCS)
+- SG90 Servo Motors (4 PCS)
 
-- Metal servo bracket (4 PCS)
+- Metal Servo Bracket (4 PCS)
 
 - M2x8mm Screw (8 PCS)
 
@@ -106,11 +106,11 @@ Step 2: Assemble the servo motor into the body
 
 **Required components:**
 
-- Assembled servo motor (4 PCS)
+- Assembled Servo Motor (4 PCS)
 
-- Main control board
+- Main Control Board
 
-- M2x8mm screws (8 PCS)
+- M2x8mm Screw (8 PCS)
 
 **Assembly Steps:**
 
@@ -152,6 +152,14 @@ Step 2: Assemble the servo motor into the body
 
  Yellow/Orange wire → PWM signal input
 
+.. image:: _static/assembly/10.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
 ----
 
 Step 3: Assemble the swing arm to the leg
@@ -159,11 +167,11 @@ Step 3: Assemble the swing arm to the leg
 
 **Required components:**
 
-- Servo arm (4 PCS included in the servo package)
+- Servo Arm (4 PCS included in the servo package)
 
-- Leg 3D printed parts (4 PCS)
+- Leg 3D Printed Parts (4 PCS)
 
-- M1.5x5mm self-tapping screws (4 PCS)
+- M1.5x5mm Self-Tapping Screw (4 PCS)
 
 **Assembly Steps:**
 
@@ -200,9 +208,9 @@ Step 4: Assemble the leg to the servo
 
 **Required components:**
 
-- Assembled leg (4 PCS)
+- Assembled Leg (4 PCS)
 
-- M2x4mm screws (4 PCS included in the servo package)
+- M2x4mm Screw (4 PCS included in the servo package)
 
 **Assembly Steps:**
 
@@ -216,6 +224,10 @@ Step 4: Assemble the leg to the servo
 
    <div style="margin-top: 30px;"></div>
 
+- Please refer to the following video for the specific procedure for servo calibration.
+
+.. video:: _static/assembly/19.servo.mp4
+    :width: 100%
 
 - Use M2x4mm screws to attach the assembled leg to the servo motor. Ensure that the leg is securely fastened and can move freely without obstruction.
 
@@ -227,25 +239,15 @@ Step 4: Assemble the leg to the servo
 
    <div style="margin-top: 30px;"></div>
 
+.. attention::
 
-- The legs are initially installed at a 90-degree angle to the horizontal plane.
+ - Please calibrate the servo before tightening the M2x4mm screws.
 
-.. image:: _static/assembly/10.png
-   :width: 800
-   :align: center
-
-.. raw:: html
-
-   <div style="margin-top: 30px;"></div>
+ - The legs are initially installed at a 90-degree angle to the horizontal plane.
 
 .. attention::
 
  - If the servo motor does not return to its initial position, please check if the firmware has been flashed correctly. If the issue persists, please contact our support team for assistance.
-
-- Please refer to the following video for the specific procedure for servo calibration.
-
-.. video:: _static/assembly/19.servo.mp4
-    :width: 100%
 
 ----
 
@@ -256,7 +258,7 @@ Step 5: Assemble the speaker
 
 - Speaker (1 PCS)
 
-- Round double-sided tape (1 PCS)
+- Round Double-Sided Tape (1 PCS)
 
 **Assembly Steps:**
 
@@ -293,9 +295,9 @@ Step 6: Assemble the screen
 **Required components:**
 
 - 0.96" OLED Screen (1 PCS)
-- 3D printed head parts (1 PCS)
-- M2x8mm screws (4 PCS)
-- M2 nuts (4 PCS)
+- 3D Printed Head Parts (1 PCS)
+- M2x8mm Screw (4 PCS)
+- M2 Nuts (4 PCS)
 
 **Assembly Steps:**
 
