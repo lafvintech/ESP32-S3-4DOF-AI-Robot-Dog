@@ -61,7 +61,7 @@ Recommended assembly order:
 ----
 
 
-Step 1: Assemble the servo
+Step 1: Assemble The Servo
 ---------------------------
 
 **Required components:**
@@ -101,7 +101,7 @@ Step 1: Assemble the servo
 
 ----
 
-Step 2: Assemble the servo motor into the body
+Step 2: Assemble The Servo Motor Into The Body
 ------------------------------------------------
 
 **Required components:**
@@ -162,7 +162,7 @@ Step 2: Assemble the servo motor into the body
 
 ----
 
-Step 3: Assemble the swing arm to the leg
+Step 3: Assemble The Swing Arm To The Leg
 -----------------------------------------
 
 **Required components:**
@@ -203,7 +203,7 @@ Step 3: Assemble the swing arm to the leg
 
 ----
 
-Step 4: Assemble the leg to the servo
+Step 4: Assemble The Leg To The Servo
 -------------------------------------
 
 **Required components:**
@@ -245,13 +245,11 @@ Step 4: Assemble the leg to the servo
 
  - The legs are initially installed at a 90-degree angle to the horizontal plane.
 
-.. attention::
-
  - If the servo motor does not return to its initial position, please check if the firmware has been flashed correctly. If the issue persists, please contact our support team for assistance.
 
 ----
 
-Step 5: Assemble the speaker
+Step 5: Assemble The Speaker
 ----------------------------
 
 **Required components:**
@@ -289,7 +287,7 @@ Step 5: Assemble the speaker
    <div style="margin-top: 30px;"></div>
 ----
 
-Step 6: Assemble the screen
+Step 6: Assemble The Screen
 ---------------------------
 
 **Required components:**
