@@ -109,6 +109,16 @@ Select the corresponding firmware as shown in the images below.
 
    <div style="margin-top: 30px;"></div>
 
+The default flash baud rate is 921600; if flashing fails, you can try switching to a different rate.
+
+.. image:: _static/flash/6.固件3.png
+   :width: 800
+   :align: center   
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
 ----
 
 Step 5: Start Flashing

@@ -1,8 +1,7 @@
 2. Assembly Tutorial
 ====================
 
-**This chapter will explain the assembly process of the AI Robot Dog and provide video and text tutorials, which you can choose to view according to your needs.**
-
+**This chapter details the assembly process for the AI ​​robot dog and provides a comprehensive, illustrated tutorial; please read carefully and follow the steps to complete the assembly.**
 .. attention::
 
       Before starting the assembly, please make sure to read the instructions carefully and follow the steps in order. If you encounter any issues during the assembly process, feel free to reach out to our support team for assistance. We are here to help you every step of the way!    
