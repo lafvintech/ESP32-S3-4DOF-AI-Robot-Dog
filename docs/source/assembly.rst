@@ -270,6 +270,14 @@ Servo Zero-Position Calibration
 Servo tolerances, servo-horn spline positions, and 3D-printed part tolerances can cause assembly offsets. Use the
 :guilabel:`Servo Setup` page to calibrate the Home position of each leg.
 
+.. image:: _static/assembly/7.servo.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
 #. Select :guilabel:`Home Position` to move the robot dog to its initial standing pose.
 #. Check whether all four feet contact the surface and whether the body leans noticeably to one side.
 #. Choose the leg to adjust in :guilabel:`Servo Setup`.
