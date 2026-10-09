@@ -255,18 +255,3 @@ Function Introduction
  Based on the ESP32-S3 and open-source ESP-IDF development environment, users can further modify motion angles, web interfaces, screen expressions, lighting effects logic, and voice interaction methods, making it suitable for learning embedded systems, robot control, and AI application development.
 
 ----
-
-Resource Download
------------------
-
-The sample code required for this course has been provided; you can access all the resources via the following link.
-
-.. raw:: html
-
-    <a href="_static/Code_and_firmware.zip" class="btn btn-primary" download>📥 Download Code and Firmware</a>
-    
-----
-
-**Next, we will delve into the core content of the course and help you gradually understand the relevant concepts and master the operation procedures.**
-
-----
