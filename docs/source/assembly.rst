@@ -242,6 +242,11 @@ Step 4: Assemble the leg to the servo
 
  - If the servo motor does not return to its initial position, please check if the firmware has been flashed correctly. If the issue persists, please contact our support team for assistance.
 
+- Please refer to the following video for the specific procedure for servo calibration.
+
+.. video:: _static/assembly/19.servo.mp4
+    :width: 100%
+
 ----
 
 Step 5: Assemble the speaker
