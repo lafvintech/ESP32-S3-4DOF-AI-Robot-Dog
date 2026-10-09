@@ -328,6 +328,27 @@ Step 6: Assemble The Screen
 
 ----
 
+Step 7: Organize The Wire Harness
+---------------------------------
+
+**Required components:**
+
+- Cable Tie (4 PCS)
+
+**Assembly Steps:**
+
+- To ensure the robotic dog's movements remain unrestricted while walking, cable ties can be used to organize the servo wiring harnesses.
+
+.. image:: _static/assembly/2.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <div style="margin-top: 30px;"></div>
+
+----
+
 .. _servo-calibration-en:
 
 Servo Zero-Position Calibration
