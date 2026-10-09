@@ -218,7 +218,7 @@ Step 5: Assemble the speaker
 
 - Speaker (1 PCS)
 
--Round double-sided tape (1 PCS)
+- Round double-sided tape (1 PCS)
 
 **Assembly Steps:**
 
