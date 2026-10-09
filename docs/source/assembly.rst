@@ -100,8 +100,8 @@ Step 1: Assemble The Servo
 
 ----
 
-Step 2: Assemble The Servo Motor Into The Body
-------------------------------------------------
+Step 2: Assemble The Servo Into The Body
+-----------------------------------------
 
 **Required components:**
 
