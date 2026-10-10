@@ -2,11 +2,13 @@
 ====================
 
 **This chapter details the assembly process for the AI ​​robot dog and provides a comprehensive, illustrated tutorial; please read carefully and follow the steps to complete the assembly.**
+
 .. attention::
 
-      Before starting the assembly, please make sure to read the instructions carefully and follow the steps in order. If you encounter any issues during the assembly process, feel free to reach out to our support team for assistance. We are here to help you every step of the way!    
+ - Before starting the assembly, please make sure to read the instructions carefully and follow the steps in order. If you encounter any issues during the assembly process, feel free to reach out to our support team for assistance. We are here to help you every step of the way!    
             
-      Before assembly, be sure to flash the program onto the main control board to ensure that the subsequent servo calibration can be performed correctly. If you have not yet completed the flashing process, please click here for detailed instructions on how to flash the firmware to the main control board. :ref:`Flash The Firmware`
+ - Before assembly, be sure to flash the program onto the main control board to ensure that the subsequent servo calibration can be performed correctly. If you have not yet completed the flashing process, please click here for detailed instructions on how to flash the firmware to the main control board. :ref:`Flash The Firmware`
+
 ----
 
 Before You Begin
