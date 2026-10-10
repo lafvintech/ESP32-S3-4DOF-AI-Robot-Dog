@@ -311,12 +311,10 @@ FAQ For Function Usage Guide
 
 ----
 
-
-----
-
 **What to do if the OLED screen does not display or displays abnormally?** 
 
 - Check that the power supply and connection cables are secure.
+
 - Check the battery charge level and polarity.
 
 ----
