@@ -331,17 +331,12 @@ FAQ For Function Usage Guide
 
 ----
 
-**How ​​to make the robot execute voice commands such as head shaking?**
+**How do I get the robot dog to execute voice commands, such as moving forward?**
 
-- Use example phrases directly in conversation mode (e.g., "Shake your head left/right", "Scan left, right, and up").
-
-----
-
-**How ​​to restore factory settings or reset the device?**
-
-- This document does not define a one-button restore procedure. To clear the configuration, you can re-flash the factory firmware.
+- Simply use example phrases while in conversation mode (e.g., "Move forward 3 steps," "Turn left," "Turn right").
 
 ----
+
 
 **Which languages ​​are supported?**
 
